@@ -1,0 +1,17 @@
+{
+  "name": "Schema",
+  "author": "NanoX Author",
+  "connections": [
+    {
+      "name": "Connection",
+      "address": "localhost",
+      "password": "admin123",
+      "pattern": "nanohub",
+      "port": 5000,
+      "username": "admin"
+    }
+  ],
+  "description": "",
+  "project": "NanoX Project",
+  "version": "1.0.0"
+}
