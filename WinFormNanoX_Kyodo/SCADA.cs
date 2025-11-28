@@ -949,22 +949,16 @@ namespace WinFormNanoX_Kyodo
         {
             var userName = this.txtUserName.Text.Trim();
             var password = this.txtPassword.Text.Trim();
-            var role = this.cbxRole.Text.Trim();
 
             if (string.IsNullOrEmpty(password) ||
-                string.IsNullOrEmpty(userName) ||
-                string.IsNullOrEmpty(role)) return;
+                string.IsNullOrEmpty(userName)) return;
 
-            if (!CheckUser(userName, password, role))
+            if (!CheckUser(userName, password))
             {
                 MessageBox.Show("Incorrect Username/Password !", "THK", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if (role != "Admin")
-            {
-                MessageBox.Show("Not have permission!", "THK", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
+
             this.DialogResult = DialogResult.OK;
             this.activeButton = btnParameter;
             this.txtUserName.Text = null;
@@ -980,8 +974,11 @@ namespace WinFormNanoX_Kyodo
             label2.Hide();
         }
 
-        private bool CheckUser(string userName, string password, string role)
+        private bool CheckUser(string userName, string password)
         {
+            // Cho phép role = "1" hoặc role = "Admin" để truy cập Parameter
+            const string AdminRoleValue = "1";
+            const string AdminRoleText = "Admin";
             var connectionString = "Server=localhost;Database=scada;Uid=root;Pwd=1234;";
             using (var conn = new MySqlConnection(connectionString))
             {
@@ -990,7 +987,12 @@ namespace WinFormNanoX_Kyodo
                 {
                     cmd.Connection = conn;
                     cmd.CommandType = CommandType.Text;
-                    cmd.CommandText = $"select count(*) from `account` where `UserName`='{userName}' and `Password` = '{password}' and `Role` ='{role}'";
+                    // Kiểm tra user có role = "1" hoặc role = "Admin"
+                    cmd.CommandText = $"select count(*) from `account` where `UserName`=@UserName and `Password`=@Password and (`Role`=@Role1 or `Role`=@Role2)";
+                    cmd.Parameters.AddWithValue("@UserName", userName);
+                    cmd.Parameters.AddWithValue("@Password", password);
+                    cmd.Parameters.AddWithValue("@Role1", AdminRoleValue);
+                    cmd.Parameters.AddWithValue("@Role2", AdminRoleText);
 
                     return Convert.ToInt16(cmd.ExecuteScalar()) > 0;
                 }

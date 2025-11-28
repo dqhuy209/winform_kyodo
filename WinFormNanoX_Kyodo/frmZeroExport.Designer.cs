@@ -57,13 +57,13 @@
             this.label11 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lblGenerator = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.mPicturePower1 = new NanoX.SCADAToolLibrary.MGraphic.MPicturePower();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label97 = new System.Windows.Forms.Label();
@@ -480,14 +480,14 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.label12);
+            this.panel2.Controls.Add(this.mPicturePower1);
             this.panel2.Controls.Add(this.pictureBox3);
-            this.panel2.Controls.Add(this.lblGenerator);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.label14);
             this.panel2.Controls.Add(this.label15);
             this.panel2.Controls.Add(this.label19);
             this.panel2.Controls.Add(this.label7);
-            this.panel2.Controls.Add(this.label12);
             this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label97);
@@ -506,17 +506,29 @@
             this.panel2.Size = new System.Drawing.Size(1174, 916);
             this.panel2.TabIndex = 2107;
             // 
-            // lblGenerator
+            // label12
             // 
-            this.lblGenerator.AutoSize = true;
-            this.lblGenerator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
-            this.lblGenerator.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGenerator.ForeColor = System.Drawing.Color.Red;
-            this.lblGenerator.Location = new System.Drawing.Point(338, 232);
-            this.lblGenerator.Name = "lblGenerator";
-            this.lblGenerator.Size = new System.Drawing.Size(130, 29);
-            this.lblGenerator.TabIndex = 2075;
-            this.lblGenerator.Text = "Generator";
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label12.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label12.Location = new System.Drawing.Point(1, 314);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(501, 87);
+            this.label12.TabIndex = 2028;
+            this.label12.Text = "Solar Energy Exported to Grid Today";
+            // 
+            // mPicturePower1
+            // 
+            this.mPicturePower1.Location = new System.Drawing.Point(50, 48);
+            this.mPicturePower1.Name = "mPicturePower1";
+            this.mPicturePower1.NodePath = "";
+            this.mPicturePower1.PropertyName = "EngValue";
+            this.mPicturePower1.scale = 1D;
+            this.mPicturePower1.Size = new System.Drawing.Size(480, 275);
+            this.mPicturePower1.TabIndex = 2076;
             // 
             // pictureBox2
             // 
@@ -577,20 +589,6 @@
             this.label7.TabIndex = 2029;
             this.label7.Text = "kWh";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label12
-            // 
-            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
-            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label12.Cursor = System.Windows.Forms.Cursors.Default;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label12.Location = new System.Drawing.Point(1, 314);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(501, 87);
-            this.label12.TabIndex = 2028;
-            this.label12.Text = "Solar Energy Exported to Grid Today";
             // 
             // label8
             // 
@@ -1465,7 +1463,6 @@
             this.Load += new System.EventHandler(this.frmZeroExport_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox3.ResumeLayout(false);
@@ -1503,7 +1500,6 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label lblGenerator;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
@@ -1570,5 +1566,6 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label30;
+        private NanoX.SCADAToolLibrary.MGraphic.MPicturePower mPicturePower1;
     }
 }

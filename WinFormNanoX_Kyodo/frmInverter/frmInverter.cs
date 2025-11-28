@@ -16,5 +16,10 @@ namespace WinFormNanoX_Kyodo
         {
             InitializeComponent();
         }
+
+        private void nanoXLamp4Tag4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

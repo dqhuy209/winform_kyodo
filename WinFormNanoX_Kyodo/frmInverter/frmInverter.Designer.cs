@@ -31,6 +31,8 @@
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.nanoXLabelWarning6 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabelWarning();
+            this.nanoXLamp4Tag6 = new NanoX.SCADAToolLibrary.MGraphic.NanoXLamp4Tag();
             this.nanoXLabel169 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel170 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel171 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
@@ -55,7 +57,6 @@
             this.nanoXLabel190 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel191 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel192 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
-            this.nanoXLabel41 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel42 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel43 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel44 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
@@ -63,7 +64,6 @@
             this.nanoXLabel46 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel47 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel48 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
-            this.mTagsLamp6 = new NanoX.SCADAToolLibrary.MGraphic.MTagsLamp();
             this.label313 = new System.Windows.Forms.Label();
             this.label314 = new System.Windows.Forms.Label();
             this.label315 = new System.Windows.Forms.Label();
@@ -119,6 +119,8 @@
             this.label263 = new System.Windows.Forms.Label();
             this.label264 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.nanoXLabelWarning5 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabelWarning();
+            this.nanoXLamp4Tag5 = new NanoX.SCADAToolLibrary.MGraphic.NanoXLamp4Tag();
             this.nanoXLabel145 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel146 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel147 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
@@ -143,7 +145,6 @@
             this.nanoXLabel166 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel167 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel168 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
-            this.nanoXLabel33 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel34 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel35 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel36 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
@@ -151,7 +152,6 @@
             this.nanoXLabel38 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel39 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel40 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
-            this.mTagsLamp5 = new NanoX.SCADAToolLibrary.MGraphic.MTagsLamp();
             this.label301 = new System.Windows.Forms.Label();
             this.label302 = new System.Windows.Forms.Label();
             this.label303 = new System.Windows.Forms.Label();
@@ -207,6 +207,8 @@
             this.label211 = new System.Windows.Forms.Label();
             this.label212 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.nanoXLabelWarning4 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabelWarning();
+            this.nanoXLamp4Tag4 = new NanoX.SCADAToolLibrary.MGraphic.NanoXLamp4Tag();
             this.nanoXLabel121 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel122 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel123 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
@@ -231,7 +233,6 @@
             this.nanoXLabel142 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel143 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel144 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
-            this.nanoXLabel25 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel26 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel27 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel28 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
@@ -239,7 +240,6 @@
             this.nanoXLabel30 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel31 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel32 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
-            this.mTagsLamp4 = new NanoX.SCADAToolLibrary.MGraphic.MTagsLamp();
             this.label289 = new System.Windows.Forms.Label();
             this.label290 = new System.Windows.Forms.Label();
             this.label291 = new System.Windows.Forms.Label();
@@ -295,6 +295,8 @@
             this.label176 = new System.Windows.Forms.Label();
             this.label125 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.nanoXLabelWarning3 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabelWarning();
+            this.nanoXLamp4Tag3 = new NanoX.SCADAToolLibrary.MGraphic.NanoXLamp4Tag();
             this.nanoXLabel97 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel98 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel99 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
@@ -319,7 +321,6 @@
             this.nanoXLabel118 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel119 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel120 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
-            this.nanoXLabel17 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel18 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel19 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel20 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
@@ -327,7 +328,6 @@
             this.nanoXLabel22 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel23 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel24 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
-            this.mTagsLamp3 = new NanoX.SCADAToolLibrary.MGraphic.MTagsLamp();
             this.label277 = new System.Windows.Forms.Label();
             this.label278 = new System.Windows.Forms.Label();
             this.label279 = new System.Windows.Forms.Label();
@@ -383,11 +383,11 @@
             this.label234 = new System.Windows.Forms.Label();
             this.label79 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.nanoXLabelWarning1 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabelWarning();
+            this.nanoXLamp4Tag1 = new NanoX.SCADAToolLibrary.MGraphic.NanoXLamp4Tag();
             this.nanoXLabel73 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel74 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
-            this.nanoXLabel9 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel75 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
-            this.mTagsLamp2 = new NanoX.SCADAToolLibrary.MGraphic.MTagsLamp();
             this.nanoXLabel76 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel10 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel77 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
@@ -471,6 +471,8 @@
             this.label231 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.nanoXLabelWarning2 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabelWarning();
+            this.nanoXLamp4Tag2 = new NanoX.SCADAToolLibrary.MGraphic.NanoXLamp4Tag();
             this.nanoXLabel65 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel66 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel67 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
@@ -495,7 +497,6 @@
             this.nanoXLabel52 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel50 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel49 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
-            this.nanoXLabel7 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel8 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel4 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel5 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
@@ -503,7 +504,6 @@
             this.nanoXLabel3 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel2 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel1 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
-            this.mTagsLamp1 = new NanoX.SCADAToolLibrary.MGraphic.MTagsLamp();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -584,6 +584,8 @@
             // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.nanoXLabelWarning6);
+            this.groupBox6.Controls.Add(this.nanoXLamp4Tag6);
             this.groupBox6.Controls.Add(this.nanoXLabel169);
             this.groupBox6.Controls.Add(this.nanoXLabel170);
             this.groupBox6.Controls.Add(this.nanoXLabel171);
@@ -608,7 +610,6 @@
             this.groupBox6.Controls.Add(this.nanoXLabel190);
             this.groupBox6.Controls.Add(this.nanoXLabel191);
             this.groupBox6.Controls.Add(this.nanoXLabel192);
-            this.groupBox6.Controls.Add(this.nanoXLabel41);
             this.groupBox6.Controls.Add(this.nanoXLabel42);
             this.groupBox6.Controls.Add(this.nanoXLabel43);
             this.groupBox6.Controls.Add(this.nanoXLabel44);
@@ -616,7 +617,6 @@
             this.groupBox6.Controls.Add(this.nanoXLabel46);
             this.groupBox6.Controls.Add(this.nanoXLabel47);
             this.groupBox6.Controls.Add(this.nanoXLabel48);
-            this.groupBox6.Controls.Add(this.mTagsLamp6);
             this.groupBox6.Controls.Add(this.label313);
             this.groupBox6.Controls.Add(this.label314);
             this.groupBox6.Controls.Add(this.label315);
@@ -676,6 +676,49 @@
             this.groupBox6.Size = new System.Drawing.Size(290, 763);
             this.groupBox6.TabIndex = 3267;
             this.groupBox6.TabStop = false;
+            // 
+            // nanoXLabelWarning6
+            // 
+            this.nanoXLabelWarning6.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabelWarning6.ColorNormal = System.Drawing.Color.DimGray;
+            this.nanoXLabelWarning6.ColorWarning = System.Drawing.Color.Red;
+            this.nanoXLabelWarning6.Decimal = null;
+            this.nanoXLabelWarning6.Location = new System.Drawing.Point(111, 328);
+            this.nanoXLabelWarning6.MaxValue = 70D;
+            this.nanoXLabelWarning6.Name = "nanoXLabelWarning6";
+            this.nanoXLabelWarning6.NodePath = "";
+            this.nanoXLabelWarning6.PropertyName = "EngValue";
+            this.nanoXLabelWarning6.scale = 1D;
+            this.nanoXLabelWarning6.Size = new System.Drawing.Size(110, 29);
+            this.nanoXLabelWarning6.TabIndex = 3268;
+            this.nanoXLabelWarning6.Text = "----";
+            this.nanoXLabelWarning6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nanoXLamp4Tag6
+            // 
+            this.nanoXLamp4Tag6.BackColor = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag6.ColorInActive = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag6.ColorValue1 = System.Drawing.Color.Lime;
+            this.nanoXLamp4Tag6.ColorValue2 = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag6.ColorValue3 = System.Drawing.Color.Red;
+            this.nanoXLamp4Tag6.ColorValue4 = System.Drawing.Color.Cyan;
+            this.nanoXLamp4Tag6.ForeColor = System.Drawing.Color.White;
+            this.nanoXLamp4Tag6.Location = new System.Drawing.Point(149, 55);
+            this.nanoXLamp4Tag6.Name = "nanoXLamp4Tag6";
+            this.nanoXLamp4Tag6.Size = new System.Drawing.Size(130, 40);
+            this.nanoXLamp4Tag6.TabIndex = 3268;
+            this.nanoXLamp4Tag6.TagName1 = "";
+            this.nanoXLamp4Tag6.TagName2 = "";
+            this.nanoXLamp4Tag6.TagName3 = "";
+            this.nanoXLamp4Tag6.TagName4 = "";
+            this.nanoXLamp4Tag6.Text = "--";
+            this.nanoXLamp4Tag6.TextTag1 = "ON";
+            this.nanoXLamp4Tag6.TextTag2 = "OFF";
+            this.nanoXLamp4Tag6.TextTag3 = "FAULT";
+            this.nanoXLamp4Tag6.TextTag4 = "STANDBY";
+            this.nanoXLamp4Tag6.UseVisualStyleBackColor = false;
+            this.nanoXLamp4Tag6.ValueActive = "1";
+            this.nanoXLamp4Tag6.ValueInActive = "0";
             // 
             // nanoXLabel169
             // 
@@ -1037,21 +1080,6 @@
             this.nanoXLabel192.Text = "--";
             this.nanoXLabel192.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // nanoXLabel41
-            // 
-            this.nanoXLabel41.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.nanoXLabel41.Decimal = null;
-            this.nanoXLabel41.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel41.Location = new System.Drawing.Point(111, 328);
-            this.nanoXLabel41.Name = "nanoXLabel41";
-            this.nanoXLabel41.NodePath = "";
-            this.nanoXLabel41.PropertyName = "EngValue";
-            this.nanoXLabel41.scale = 1D;
-            this.nanoXLabel41.Size = new System.Drawing.Size(110, 29);
-            this.nanoXLabel41.TabIndex = 3407;
-            this.nanoXLabel41.Text = "--";
-            this.nanoXLabel41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // nanoXLabel42
             // 
             this.nanoXLabel42.BackColor = System.Drawing.SystemColors.ActiveBorder;
@@ -1100,7 +1128,7 @@
             // nanoXLabel45
             // 
             this.nanoXLabel45.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.nanoXLabel45.Decimal = null;
+            this.nanoXLabel45.Decimal = 2;
             this.nanoXLabel45.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
             this.nanoXLabel45.Location = new System.Drawing.Point(111, 208);
             this.nanoXLabel45.Name = "nanoXLabel45";
@@ -1156,28 +1184,6 @@
             this.nanoXLabel48.TabIndex = 3400;
             this.nanoXLabel48.Text = "--";
             this.nanoXLabel48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // mTagsLamp6
-            // 
-            this.mTagsLamp6.BackColor = System.Drawing.Color.Gray;
-            this.mTagsLamp6.BackColors = new System.Drawing.Color[0];
-            this.mTagsLamp6.DefaultBackColor = System.Drawing.Color.Gray;
-            this.mTagsLamp6.DefaultForeColor = System.Drawing.Color.Black;
-            this.mTagsLamp6.DefaultText = "-";
-            this.mTagsLamp6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.mTagsLamp6.ForeColor = System.Drawing.Color.Black;
-            this.mTagsLamp6.ForeColors = new System.Drawing.Color[0];
-            this.mTagsLamp6.Location = new System.Drawing.Point(149, 55);
-            this.mTagsLamp6.Name = "mTagsLamp6";
-            this.mTagsLamp6.Size = new System.Drawing.Size(130, 40);
-            this.mTagsLamp6.TabIndex = 3376;
-            this.mTagsLamp6.TagPaths = new string[] {
-        "[Connection]/Folder/Tag1",
-        "[Connection]/Folder/Tag2"};
-            this.mTagsLamp6.Text = "-";
-            this.mTagsLamp6.Texts = new string[] {
-        "Critial"};
-            this.mTagsLamp6.UseVisualStyleBackColor = false;
             // 
             // label313
             // 
@@ -1937,6 +1943,8 @@
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.nanoXLabelWarning5);
+            this.groupBox5.Controls.Add(this.nanoXLamp4Tag5);
             this.groupBox5.Controls.Add(this.nanoXLabel145);
             this.groupBox5.Controls.Add(this.nanoXLabel146);
             this.groupBox5.Controls.Add(this.nanoXLabel147);
@@ -1961,7 +1969,6 @@
             this.groupBox5.Controls.Add(this.nanoXLabel166);
             this.groupBox5.Controls.Add(this.nanoXLabel167);
             this.groupBox5.Controls.Add(this.nanoXLabel168);
-            this.groupBox5.Controls.Add(this.nanoXLabel33);
             this.groupBox5.Controls.Add(this.nanoXLabel34);
             this.groupBox5.Controls.Add(this.nanoXLabel35);
             this.groupBox5.Controls.Add(this.nanoXLabel36);
@@ -1969,7 +1976,6 @@
             this.groupBox5.Controls.Add(this.nanoXLabel38);
             this.groupBox5.Controls.Add(this.nanoXLabel39);
             this.groupBox5.Controls.Add(this.nanoXLabel40);
-            this.groupBox5.Controls.Add(this.mTagsLamp5);
             this.groupBox5.Controls.Add(this.label301);
             this.groupBox5.Controls.Add(this.label302);
             this.groupBox5.Controls.Add(this.label303);
@@ -2029,6 +2035,49 @@
             this.groupBox5.Size = new System.Drawing.Size(290, 763);
             this.groupBox5.TabIndex = 2668;
             this.groupBox5.TabStop = false;
+            // 
+            // nanoXLabelWarning5
+            // 
+            this.nanoXLabelWarning5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabelWarning5.ColorNormal = System.Drawing.Color.DimGray;
+            this.nanoXLabelWarning5.ColorWarning = System.Drawing.Color.Red;
+            this.nanoXLabelWarning5.Decimal = null;
+            this.nanoXLabelWarning5.Location = new System.Drawing.Point(112, 328);
+            this.nanoXLabelWarning5.MaxValue = 70D;
+            this.nanoXLabelWarning5.Name = "nanoXLabelWarning5";
+            this.nanoXLabelWarning5.NodePath = "";
+            this.nanoXLabelWarning5.PropertyName = "EngValue";
+            this.nanoXLabelWarning5.scale = 1D;
+            this.nanoXLabelWarning5.Size = new System.Drawing.Size(110, 29);
+            this.nanoXLabelWarning5.TabIndex = 3268;
+            this.nanoXLabelWarning5.Text = "----";
+            this.nanoXLabelWarning5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nanoXLamp4Tag5
+            // 
+            this.nanoXLamp4Tag5.BackColor = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag5.ColorInActive = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag5.ColorValue1 = System.Drawing.Color.Lime;
+            this.nanoXLamp4Tag5.ColorValue2 = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag5.ColorValue3 = System.Drawing.Color.Red;
+            this.nanoXLamp4Tag5.ColorValue4 = System.Drawing.Color.Cyan;
+            this.nanoXLamp4Tag5.ForeColor = System.Drawing.Color.White;
+            this.nanoXLamp4Tag5.Location = new System.Drawing.Point(149, 55);
+            this.nanoXLamp4Tag5.Name = "nanoXLamp4Tag5";
+            this.nanoXLamp4Tag5.Size = new System.Drawing.Size(130, 40);
+            this.nanoXLamp4Tag5.TabIndex = 3268;
+            this.nanoXLamp4Tag5.TagName1 = "";
+            this.nanoXLamp4Tag5.TagName2 = "";
+            this.nanoXLamp4Tag5.TagName3 = "";
+            this.nanoXLamp4Tag5.TagName4 = "";
+            this.nanoXLamp4Tag5.Text = "--";
+            this.nanoXLamp4Tag5.TextTag1 = "ON";
+            this.nanoXLamp4Tag5.TextTag2 = "OFF";
+            this.nanoXLamp4Tag5.TextTag3 = "FAULT";
+            this.nanoXLamp4Tag5.TextTag4 = "STANDBY";
+            this.nanoXLamp4Tag5.UseVisualStyleBackColor = false;
+            this.nanoXLamp4Tag5.ValueActive = "1";
+            this.nanoXLamp4Tag5.ValueInActive = "0";
             // 
             // nanoXLabel145
             // 
@@ -2390,21 +2439,6 @@
             this.nanoXLabel168.Text = "--";
             this.nanoXLabel168.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // nanoXLabel33
-            // 
-            this.nanoXLabel33.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.nanoXLabel33.Decimal = null;
-            this.nanoXLabel33.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel33.Location = new System.Drawing.Point(112, 328);
-            this.nanoXLabel33.Name = "nanoXLabel33";
-            this.nanoXLabel33.NodePath = "";
-            this.nanoXLabel33.PropertyName = "EngValue";
-            this.nanoXLabel33.scale = 1D;
-            this.nanoXLabel33.Size = new System.Drawing.Size(110, 29);
-            this.nanoXLabel33.TabIndex = 3383;
-            this.nanoXLabel33.Text = "--";
-            this.nanoXLabel33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // nanoXLabel34
             // 
             this.nanoXLabel34.BackColor = System.Drawing.SystemColors.ActiveBorder;
@@ -2453,7 +2487,7 @@
             // nanoXLabel37
             // 
             this.nanoXLabel37.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.nanoXLabel37.Decimal = null;
+            this.nanoXLabel37.Decimal = 2;
             this.nanoXLabel37.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
             this.nanoXLabel37.Location = new System.Drawing.Point(112, 208);
             this.nanoXLabel37.Name = "nanoXLabel37";
@@ -2509,28 +2543,6 @@
             this.nanoXLabel40.TabIndex = 3376;
             this.nanoXLabel40.Text = "--";
             this.nanoXLabel40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // mTagsLamp5
-            // 
-            this.mTagsLamp5.BackColor = System.Drawing.Color.Gray;
-            this.mTagsLamp5.BackColors = new System.Drawing.Color[0];
-            this.mTagsLamp5.DefaultBackColor = System.Drawing.Color.Gray;
-            this.mTagsLamp5.DefaultForeColor = System.Drawing.Color.Black;
-            this.mTagsLamp5.DefaultText = "-";
-            this.mTagsLamp5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.mTagsLamp5.ForeColor = System.Drawing.Color.Black;
-            this.mTagsLamp5.ForeColors = new System.Drawing.Color[0];
-            this.mTagsLamp5.Location = new System.Drawing.Point(149, 55);
-            this.mTagsLamp5.Name = "mTagsLamp5";
-            this.mTagsLamp5.Size = new System.Drawing.Size(130, 40);
-            this.mTagsLamp5.TabIndex = 3352;
-            this.mTagsLamp5.TagPaths = new string[] {
-        "[Connection]/Folder/Tag1",
-        "[Connection]/Folder/Tag2"};
-            this.mTagsLamp5.Text = "-";
-            this.mTagsLamp5.Texts = new string[] {
-        "EMG"};
-            this.mTagsLamp5.UseVisualStyleBackColor = false;
             // 
             // label301
             // 
@@ -3290,6 +3302,8 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.nanoXLabelWarning4);
+            this.groupBox4.Controls.Add(this.nanoXLamp4Tag4);
             this.groupBox4.Controls.Add(this.nanoXLabel121);
             this.groupBox4.Controls.Add(this.nanoXLabel122);
             this.groupBox4.Controls.Add(this.nanoXLabel123);
@@ -3314,7 +3328,6 @@
             this.groupBox4.Controls.Add(this.nanoXLabel142);
             this.groupBox4.Controls.Add(this.nanoXLabel143);
             this.groupBox4.Controls.Add(this.nanoXLabel144);
-            this.groupBox4.Controls.Add(this.nanoXLabel25);
             this.groupBox4.Controls.Add(this.nanoXLabel26);
             this.groupBox4.Controls.Add(this.nanoXLabel27);
             this.groupBox4.Controls.Add(this.nanoXLabel28);
@@ -3322,7 +3335,6 @@
             this.groupBox4.Controls.Add(this.nanoXLabel30);
             this.groupBox4.Controls.Add(this.nanoXLabel31);
             this.groupBox4.Controls.Add(this.nanoXLabel32);
-            this.groupBox4.Controls.Add(this.mTagsLamp4);
             this.groupBox4.Controls.Add(this.label289);
             this.groupBox4.Controls.Add(this.label290);
             this.groupBox4.Controls.Add(this.label291);
@@ -3382,6 +3394,50 @@
             this.groupBox4.Size = new System.Drawing.Size(290, 763);
             this.groupBox4.TabIndex = 2667;
             this.groupBox4.TabStop = false;
+            // 
+            // nanoXLabelWarning4
+            // 
+            this.nanoXLabelWarning4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabelWarning4.ColorNormal = System.Drawing.Color.DimGray;
+            this.nanoXLabelWarning4.ColorWarning = System.Drawing.Color.Red;
+            this.nanoXLabelWarning4.Decimal = null;
+            this.nanoXLabelWarning4.Location = new System.Drawing.Point(111, 328);
+            this.nanoXLabelWarning4.MaxValue = 70D;
+            this.nanoXLabelWarning4.Name = "nanoXLabelWarning4";
+            this.nanoXLabelWarning4.NodePath = "";
+            this.nanoXLabelWarning4.PropertyName = "EngValue";
+            this.nanoXLabelWarning4.scale = 1D;
+            this.nanoXLabelWarning4.Size = new System.Drawing.Size(110, 29);
+            this.nanoXLabelWarning4.TabIndex = 3268;
+            this.nanoXLabelWarning4.Text = "----";
+            this.nanoXLabelWarning4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nanoXLamp4Tag4
+            // 
+            this.nanoXLamp4Tag4.BackColor = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag4.ColorInActive = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag4.ColorValue1 = System.Drawing.Color.Lime;
+            this.nanoXLamp4Tag4.ColorValue2 = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag4.ColorValue3 = System.Drawing.Color.Red;
+            this.nanoXLamp4Tag4.ColorValue4 = System.Drawing.Color.Cyan;
+            this.nanoXLamp4Tag4.ForeColor = System.Drawing.Color.White;
+            this.nanoXLamp4Tag4.Location = new System.Drawing.Point(149, 55);
+            this.nanoXLamp4Tag4.Name = "nanoXLamp4Tag4";
+            this.nanoXLamp4Tag4.Size = new System.Drawing.Size(130, 40);
+            this.nanoXLamp4Tag4.TabIndex = 3268;
+            this.nanoXLamp4Tag4.TagName1 = "";
+            this.nanoXLamp4Tag4.TagName2 = "";
+            this.nanoXLamp4Tag4.TagName3 = "";
+            this.nanoXLamp4Tag4.TagName4 = "";
+            this.nanoXLamp4Tag4.Text = "--";
+            this.nanoXLamp4Tag4.TextTag1 = "ON";
+            this.nanoXLamp4Tag4.TextTag2 = "OFF";
+            this.nanoXLamp4Tag4.TextTag3 = "FAULT";
+            this.nanoXLamp4Tag4.TextTag4 = "STANDBY";
+            this.nanoXLamp4Tag4.UseVisualStyleBackColor = false;
+            this.nanoXLamp4Tag4.ValueActive = "1";
+            this.nanoXLamp4Tag4.ValueInActive = "0";
+            this.nanoXLamp4Tag4.Click += new System.EventHandler(this.nanoXLamp4Tag4_Click);
             // 
             // nanoXLabel121
             // 
@@ -3743,21 +3799,6 @@
             this.nanoXLabel144.Text = "--";
             this.nanoXLabel144.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // nanoXLabel25
-            // 
-            this.nanoXLabel25.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.nanoXLabel25.Decimal = null;
-            this.nanoXLabel25.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel25.Location = new System.Drawing.Point(111, 328);
-            this.nanoXLabel25.Name = "nanoXLabel25";
-            this.nanoXLabel25.NodePath = "";
-            this.nanoXLabel25.PropertyName = "EngValue";
-            this.nanoXLabel25.scale = 1D;
-            this.nanoXLabel25.Size = new System.Drawing.Size(110, 29);
-            this.nanoXLabel25.TabIndex = 3359;
-            this.nanoXLabel25.Text = "--";
-            this.nanoXLabel25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // nanoXLabel26
             // 
             this.nanoXLabel26.BackColor = System.Drawing.SystemColors.ActiveBorder;
@@ -3806,7 +3847,7 @@
             // nanoXLabel29
             // 
             this.nanoXLabel29.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.nanoXLabel29.Decimal = null;
+            this.nanoXLabel29.Decimal = 2;
             this.nanoXLabel29.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
             this.nanoXLabel29.Location = new System.Drawing.Point(111, 208);
             this.nanoXLabel29.Name = "nanoXLabel29";
@@ -3862,28 +3903,6 @@
             this.nanoXLabel32.TabIndex = 3352;
             this.nanoXLabel32.Text = "--";
             this.nanoXLabel32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // mTagsLamp4
-            // 
-            this.mTagsLamp4.BackColor = System.Drawing.Color.Gray;
-            this.mTagsLamp4.BackColors = new System.Drawing.Color[0];
-            this.mTagsLamp4.DefaultBackColor = System.Drawing.Color.Gray;
-            this.mTagsLamp4.DefaultForeColor = System.Drawing.Color.Black;
-            this.mTagsLamp4.DefaultText = "-";
-            this.mTagsLamp4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.mTagsLamp4.ForeColor = System.Drawing.Color.Black;
-            this.mTagsLamp4.ForeColors = new System.Drawing.Color[0];
-            this.mTagsLamp4.Location = new System.Drawing.Point(149, 55);
-            this.mTagsLamp4.Name = "mTagsLamp4";
-            this.mTagsLamp4.Size = new System.Drawing.Size(130, 40);
-            this.mTagsLamp4.TabIndex = 3328;
-            this.mTagsLamp4.TagPaths = new string[] {
-        "[Connection]/Folder/Tag1",
-        "[Connection]/Folder/Tag2"};
-            this.mTagsLamp4.Text = "-";
-            this.mTagsLamp4.Texts = new string[] {
-        "False"};
-            this.mTagsLamp4.UseVisualStyleBackColor = false;
             // 
             // label289
             // 
@@ -4643,6 +4662,8 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.nanoXLabelWarning3);
+            this.groupBox3.Controls.Add(this.nanoXLamp4Tag3);
             this.groupBox3.Controls.Add(this.nanoXLabel97);
             this.groupBox3.Controls.Add(this.nanoXLabel98);
             this.groupBox3.Controls.Add(this.nanoXLabel99);
@@ -4667,7 +4688,6 @@
             this.groupBox3.Controls.Add(this.nanoXLabel118);
             this.groupBox3.Controls.Add(this.nanoXLabel119);
             this.groupBox3.Controls.Add(this.nanoXLabel120);
-            this.groupBox3.Controls.Add(this.nanoXLabel17);
             this.groupBox3.Controls.Add(this.nanoXLabel18);
             this.groupBox3.Controls.Add(this.nanoXLabel19);
             this.groupBox3.Controls.Add(this.nanoXLabel20);
@@ -4675,7 +4695,6 @@
             this.groupBox3.Controls.Add(this.nanoXLabel22);
             this.groupBox3.Controls.Add(this.nanoXLabel23);
             this.groupBox3.Controls.Add(this.nanoXLabel24);
-            this.groupBox3.Controls.Add(this.mTagsLamp3);
             this.groupBox3.Controls.Add(this.label277);
             this.groupBox3.Controls.Add(this.label278);
             this.groupBox3.Controls.Add(this.label279);
@@ -4735,6 +4754,49 @@
             this.groupBox3.Size = new System.Drawing.Size(290, 763);
             this.groupBox3.TabIndex = 2666;
             this.groupBox3.TabStop = false;
+            // 
+            // nanoXLabelWarning3
+            // 
+            this.nanoXLabelWarning3.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabelWarning3.ColorNormal = System.Drawing.Color.DimGray;
+            this.nanoXLabelWarning3.ColorWarning = System.Drawing.Color.Red;
+            this.nanoXLabelWarning3.Decimal = null;
+            this.nanoXLabelWarning3.Location = new System.Drawing.Point(111, 328);
+            this.nanoXLabelWarning3.MaxValue = 70D;
+            this.nanoXLabelWarning3.Name = "nanoXLabelWarning3";
+            this.nanoXLabelWarning3.NodePath = "";
+            this.nanoXLabelWarning3.PropertyName = "EngValue";
+            this.nanoXLabelWarning3.scale = 1D;
+            this.nanoXLabelWarning3.Size = new System.Drawing.Size(110, 29);
+            this.nanoXLabelWarning3.TabIndex = 3268;
+            this.nanoXLabelWarning3.Text = "----";
+            this.nanoXLabelWarning3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nanoXLamp4Tag3
+            // 
+            this.nanoXLamp4Tag3.BackColor = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag3.ColorInActive = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag3.ColorValue1 = System.Drawing.Color.Lime;
+            this.nanoXLamp4Tag3.ColorValue2 = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag3.ColorValue3 = System.Drawing.Color.Red;
+            this.nanoXLamp4Tag3.ColorValue4 = System.Drawing.Color.Cyan;
+            this.nanoXLamp4Tag3.ForeColor = System.Drawing.Color.White;
+            this.nanoXLamp4Tag3.Location = new System.Drawing.Point(149, 55);
+            this.nanoXLamp4Tag3.Name = "nanoXLamp4Tag3";
+            this.nanoXLamp4Tag3.Size = new System.Drawing.Size(130, 40);
+            this.nanoXLamp4Tag3.TabIndex = 3268;
+            this.nanoXLamp4Tag3.TagName1 = "";
+            this.nanoXLamp4Tag3.TagName2 = "";
+            this.nanoXLamp4Tag3.TagName3 = "";
+            this.nanoXLamp4Tag3.TagName4 = "";
+            this.nanoXLamp4Tag3.Text = "--";
+            this.nanoXLamp4Tag3.TextTag1 = "ON";
+            this.nanoXLamp4Tag3.TextTag2 = "OFF";
+            this.nanoXLamp4Tag3.TextTag3 = "FAULT";
+            this.nanoXLamp4Tag3.TextTag4 = "STANDBY";
+            this.nanoXLamp4Tag3.UseVisualStyleBackColor = false;
+            this.nanoXLamp4Tag3.ValueActive = "1";
+            this.nanoXLamp4Tag3.ValueInActive = "0";
             // 
             // nanoXLabel97
             // 
@@ -5096,21 +5158,6 @@
             this.nanoXLabel120.Text = "--";
             this.nanoXLabel120.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // nanoXLabel17
-            // 
-            this.nanoXLabel17.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.nanoXLabel17.Decimal = null;
-            this.nanoXLabel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel17.Location = new System.Drawing.Point(111, 328);
-            this.nanoXLabel17.Name = "nanoXLabel17";
-            this.nanoXLabel17.NodePath = "";
-            this.nanoXLabel17.PropertyName = "EngValue";
-            this.nanoXLabel17.scale = 1D;
-            this.nanoXLabel17.Size = new System.Drawing.Size(110, 29);
-            this.nanoXLabel17.TabIndex = 3335;
-            this.nanoXLabel17.Text = "--";
-            this.nanoXLabel17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // nanoXLabel18
             // 
             this.nanoXLabel18.BackColor = System.Drawing.SystemColors.ActiveBorder;
@@ -5159,7 +5206,7 @@
             // nanoXLabel21
             // 
             this.nanoXLabel21.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.nanoXLabel21.Decimal = null;
+            this.nanoXLabel21.Decimal = 2;
             this.nanoXLabel21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
             this.nanoXLabel21.Location = new System.Drawing.Point(111, 208);
             this.nanoXLabel21.Name = "nanoXLabel21";
@@ -5215,28 +5262,6 @@
             this.nanoXLabel24.TabIndex = 3328;
             this.nanoXLabel24.Text = "--";
             this.nanoXLabel24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // mTagsLamp3
-            // 
-            this.mTagsLamp3.BackColor = System.Drawing.Color.Gray;
-            this.mTagsLamp3.BackColors = new System.Drawing.Color[0];
-            this.mTagsLamp3.DefaultBackColor = System.Drawing.Color.Gray;
-            this.mTagsLamp3.DefaultForeColor = System.Drawing.Color.Black;
-            this.mTagsLamp3.DefaultText = "-";
-            this.mTagsLamp3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.mTagsLamp3.ForeColor = System.Drawing.Color.Black;
-            this.mTagsLamp3.ForeColors = new System.Drawing.Color[0];
-            this.mTagsLamp3.Location = new System.Drawing.Point(149, 56);
-            this.mTagsLamp3.Name = "mTagsLamp3";
-            this.mTagsLamp3.Size = new System.Drawing.Size(130, 40);
-            this.mTagsLamp3.TabIndex = 3306;
-            this.mTagsLamp3.TagPaths = new string[] {
-        "[Connection]/Folder/Tag1",
-        "[Connection]/Folder/Tag2"};
-            this.mTagsLamp3.Text = "-";
-            this.mTagsLamp3.Texts = new string[] {
-        "Trip"};
-            this.mTagsLamp3.UseVisualStyleBackColor = false;
             // 
             // label277
             // 
@@ -5996,11 +6021,11 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.nanoXLabelWarning1);
+            this.groupBox2.Controls.Add(this.nanoXLamp4Tag1);
             this.groupBox2.Controls.Add(this.nanoXLabel73);
             this.groupBox2.Controls.Add(this.nanoXLabel74);
-            this.groupBox2.Controls.Add(this.nanoXLabel9);
             this.groupBox2.Controls.Add(this.nanoXLabel75);
-            this.groupBox2.Controls.Add(this.mTagsLamp2);
             this.groupBox2.Controls.Add(this.nanoXLabel76);
             this.groupBox2.Controls.Add(this.nanoXLabel10);
             this.groupBox2.Controls.Add(this.nanoXLabel77);
@@ -6089,6 +6114,49 @@
             this.groupBox2.TabIndex = 2665;
             this.groupBox2.TabStop = false;
             // 
+            // nanoXLabelWarning1
+            // 
+            this.nanoXLabelWarning1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabelWarning1.ColorNormal = System.Drawing.Color.DimGray;
+            this.nanoXLabelWarning1.ColorWarning = System.Drawing.Color.Red;
+            this.nanoXLabelWarning1.Decimal = null;
+            this.nanoXLabelWarning1.Location = new System.Drawing.Point(112, 328);
+            this.nanoXLabelWarning1.MaxValue = 70D;
+            this.nanoXLabelWarning1.Name = "nanoXLabelWarning1";
+            this.nanoXLabelWarning1.NodePath = "";
+            this.nanoXLabelWarning1.PropertyName = "EngValue";
+            this.nanoXLabelWarning1.scale = 1D;
+            this.nanoXLabelWarning1.Size = new System.Drawing.Size(110, 29);
+            this.nanoXLabelWarning1.TabIndex = 3268;
+            this.nanoXLabelWarning1.Text = "----";
+            this.nanoXLabelWarning1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nanoXLamp4Tag1
+            // 
+            this.nanoXLamp4Tag1.BackColor = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag1.ColorInActive = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag1.ColorValue1 = System.Drawing.Color.Lime;
+            this.nanoXLamp4Tag1.ColorValue2 = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag1.ColorValue3 = System.Drawing.Color.Red;
+            this.nanoXLamp4Tag1.ColorValue4 = System.Drawing.Color.Cyan;
+            this.nanoXLamp4Tag1.ForeColor = System.Drawing.Color.White;
+            this.nanoXLamp4Tag1.Location = new System.Drawing.Point(149, 55);
+            this.nanoXLamp4Tag1.Name = "nanoXLamp4Tag1";
+            this.nanoXLamp4Tag1.Size = new System.Drawing.Size(130, 40);
+            this.nanoXLamp4Tag1.TabIndex = 3268;
+            this.nanoXLamp4Tag1.TagName1 = "";
+            this.nanoXLamp4Tag1.TagName2 = "";
+            this.nanoXLamp4Tag1.TagName3 = "";
+            this.nanoXLamp4Tag1.TagName4 = "";
+            this.nanoXLamp4Tag1.Text = "--";
+            this.nanoXLamp4Tag1.TextTag1 = "ON";
+            this.nanoXLamp4Tag1.TextTag2 = "OFF";
+            this.nanoXLamp4Tag1.TextTag3 = "FAULT";
+            this.nanoXLamp4Tag1.TextTag4 = "STANDBY";
+            this.nanoXLamp4Tag1.UseVisualStyleBackColor = false;
+            this.nanoXLamp4Tag1.ValueActive = "1";
+            this.nanoXLamp4Tag1.ValueInActive = "0";
+            // 
             // nanoXLabel73
             // 
             this.nanoXLabel73.BackColor = System.Drawing.SystemColors.ActiveBorder;
@@ -6119,21 +6187,6 @@
             this.nanoXLabel74.Text = "--";
             this.nanoXLabel74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // nanoXLabel9
-            // 
-            this.nanoXLabel9.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.nanoXLabel9.Decimal = null;
-            this.nanoXLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel9.Location = new System.Drawing.Point(112, 328);
-            this.nanoXLabel9.Name = "nanoXLabel9";
-            this.nanoXLabel9.NodePath = "";
-            this.nanoXLabel9.PropertyName = "EngValue";
-            this.nanoXLabel9.scale = 1D;
-            this.nanoXLabel9.Size = new System.Drawing.Size(110, 29);
-            this.nanoXLabel9.TabIndex = 3321;
-            this.nanoXLabel9.Text = "--";
-            this.nanoXLabel9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // nanoXLabel75
             // 
             this.nanoXLabel75.BackColor = System.Drawing.SystemColors.ActiveBorder;
@@ -6148,29 +6201,6 @@
             this.nanoXLabel75.TabIndex = 3359;
             this.nanoXLabel75.Text = "--";
             this.nanoXLabel75.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // mTagsLamp2
-            // 
-            this.mTagsLamp2.BackColor = System.Drawing.Color.Gray;
-            this.mTagsLamp2.BackColors = new System.Drawing.Color[] {
-        System.Drawing.Color.Lime};
-            this.mTagsLamp2.DefaultBackColor = System.Drawing.Color.Gray;
-            this.mTagsLamp2.DefaultForeColor = System.Drawing.Color.Black;
-            this.mTagsLamp2.DefaultText = "-";
-            this.mTagsLamp2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.mTagsLamp2.ForeColor = System.Drawing.Color.Black;
-            this.mTagsLamp2.ForeColors = new System.Drawing.Color[0];
-            this.mTagsLamp2.Location = new System.Drawing.Point(149, 55);
-            this.mTagsLamp2.Name = "mTagsLamp2";
-            this.mTagsLamp2.Size = new System.Drawing.Size(130, 40);
-            this.mTagsLamp2.TabIndex = 3305;
-            this.mTagsLamp2.TagPaths = new string[] {
-        "[Connection]/Folder/Tag1",
-        "[Connection]/Folder/Tag2"};
-            this.mTagsLamp2.Text = "-";
-            this.mTagsLamp2.Texts = new string[] {
-        "OFF"};
-            this.mTagsLamp2.UseVisualStyleBackColor = false;
             // 
             // nanoXLabel76
             // 
@@ -6367,7 +6397,7 @@
             // nanoXLabel13
             // 
             this.nanoXLabel13.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.nanoXLabel13.Decimal = null;
+            this.nanoXLabel13.Decimal = 2;
             this.nanoXLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
             this.nanoXLabel13.Location = new System.Drawing.Point(112, 208);
             this.nanoXLabel13.Name = "nanoXLabel13";
@@ -7350,6 +7380,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.nanoXLabelWarning2);
+            this.groupBox1.Controls.Add(this.nanoXLamp4Tag2);
             this.groupBox1.Controls.Add(this.nanoXLabel65);
             this.groupBox1.Controls.Add(this.nanoXLabel66);
             this.groupBox1.Controls.Add(this.nanoXLabel67);
@@ -7374,7 +7406,6 @@
             this.groupBox1.Controls.Add(this.nanoXLabel52);
             this.groupBox1.Controls.Add(this.nanoXLabel50);
             this.groupBox1.Controls.Add(this.nanoXLabel49);
-            this.groupBox1.Controls.Add(this.nanoXLabel7);
             this.groupBox1.Controls.Add(this.nanoXLabel8);
             this.groupBox1.Controls.Add(this.nanoXLabel4);
             this.groupBox1.Controls.Add(this.nanoXLabel5);
@@ -7382,7 +7413,6 @@
             this.groupBox1.Controls.Add(this.nanoXLabel3);
             this.groupBox1.Controls.Add(this.nanoXLabel2);
             this.groupBox1.Controls.Add(this.nanoXLabel1);
-            this.groupBox1.Controls.Add(this.mTagsLamp1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
@@ -7442,6 +7472,49 @@
             this.groupBox1.Size = new System.Drawing.Size(290, 763);
             this.groupBox1.TabIndex = 2664;
             this.groupBox1.TabStop = false;
+            // 
+            // nanoXLabelWarning2
+            // 
+            this.nanoXLabelWarning2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabelWarning2.ColorNormal = System.Drawing.Color.DimGray;
+            this.nanoXLabelWarning2.ColorWarning = System.Drawing.Color.Red;
+            this.nanoXLabelWarning2.Decimal = null;
+            this.nanoXLabelWarning2.Location = new System.Drawing.Point(111, 328);
+            this.nanoXLabelWarning2.MaxValue = 70D;
+            this.nanoXLabelWarning2.Name = "nanoXLabelWarning2";
+            this.nanoXLabelWarning2.NodePath = "";
+            this.nanoXLabelWarning2.PropertyName = "EngValue";
+            this.nanoXLabelWarning2.scale = 1D;
+            this.nanoXLabelWarning2.Size = new System.Drawing.Size(110, 29);
+            this.nanoXLabelWarning2.TabIndex = 3268;
+            this.nanoXLabelWarning2.Text = "----";
+            this.nanoXLabelWarning2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nanoXLamp4Tag2
+            // 
+            this.nanoXLamp4Tag2.BackColor = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag2.ColorInActive = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag2.ColorValue1 = System.Drawing.Color.Lime;
+            this.nanoXLamp4Tag2.ColorValue2 = System.Drawing.Color.Silver;
+            this.nanoXLamp4Tag2.ColorValue3 = System.Drawing.Color.Red;
+            this.nanoXLamp4Tag2.ColorValue4 = System.Drawing.Color.Cyan;
+            this.nanoXLamp4Tag2.ForeColor = System.Drawing.Color.White;
+            this.nanoXLamp4Tag2.Location = new System.Drawing.Point(149, 55);
+            this.nanoXLamp4Tag2.Name = "nanoXLamp4Tag2";
+            this.nanoXLamp4Tag2.Size = new System.Drawing.Size(130, 40);
+            this.nanoXLamp4Tag2.TabIndex = 3268;
+            this.nanoXLamp4Tag2.TagName1 = "";
+            this.nanoXLamp4Tag2.TagName2 = "";
+            this.nanoXLamp4Tag2.TagName3 = "";
+            this.nanoXLamp4Tag2.TagName4 = "";
+            this.nanoXLamp4Tag2.Text = "--";
+            this.nanoXLamp4Tag2.TextTag1 = "ON";
+            this.nanoXLamp4Tag2.TextTag2 = "OFF";
+            this.nanoXLamp4Tag2.TextTag3 = "FAULT";
+            this.nanoXLamp4Tag2.TextTag4 = "STANDBY";
+            this.nanoXLamp4Tag2.UseVisualStyleBackColor = false;
+            this.nanoXLamp4Tag2.ValueActive = "1";
+            this.nanoXLamp4Tag2.ValueInActive = "0";
             // 
             // nanoXLabel65
             // 
@@ -7803,21 +7876,6 @@
             this.nanoXLabel49.Text = "--";
             this.nanoXLabel49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // nanoXLabel7
-            // 
-            this.nanoXLabel7.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.nanoXLabel7.Decimal = null;
-            this.nanoXLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel7.Location = new System.Drawing.Point(111, 328);
-            this.nanoXLabel7.Name = "nanoXLabel7";
-            this.nanoXLabel7.NodePath = "";
-            this.nanoXLabel7.PropertyName = "EngValue";
-            this.nanoXLabel7.scale = 1D;
-            this.nanoXLabel7.Size = new System.Drawing.Size(110, 29);
-            this.nanoXLabel7.TabIndex = 3313;
-            this.nanoXLabel7.Text = "--";
-            this.nanoXLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // nanoXLabel8
             // 
             this.nanoXLabel8.BackColor = System.Drawing.SystemColors.ActiveBorder;
@@ -7866,7 +7924,7 @@
             // nanoXLabel6
             // 
             this.nanoXLabel6.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.nanoXLabel6.Decimal = null;
+            this.nanoXLabel6.Decimal = 2;
             this.nanoXLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
             this.nanoXLabel6.Location = new System.Drawing.Point(111, 208);
             this.nanoXLabel6.Name = "nanoXLabel6";
@@ -7922,33 +7980,6 @@
             this.nanoXLabel1.TabIndex = 3306;
             this.nanoXLabel1.Text = "--";
             this.nanoXLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // mTagsLamp1
-            // 
-            this.mTagsLamp1.BackColor = System.Drawing.Color.Gray;
-            this.mTagsLamp1.BackColors = new System.Drawing.Color[] {
-        System.Drawing.Color.Red,
-        System.Drawing.Color.Lime};
-            this.mTagsLamp1.DefaultBackColor = System.Drawing.Color.Gray;
-            this.mTagsLamp1.DefaultForeColor = System.Drawing.Color.Black;
-            this.mTagsLamp1.DefaultText = "-";
-            this.mTagsLamp1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.mTagsLamp1.ForeColor = System.Drawing.Color.Black;
-            this.mTagsLamp1.ForeColors = new System.Drawing.Color[] {
-        System.Drawing.Color.Lime,
-        System.Drawing.Color.Red};
-            this.mTagsLamp1.Location = new System.Drawing.Point(149, 56);
-            this.mTagsLamp1.Name = "mTagsLamp1";
-            this.mTagsLamp1.Size = new System.Drawing.Size(130, 40);
-            this.mTagsLamp1.TabIndex = 3304;
-            this.mTagsLamp1.TagPaths = new string[] {
-        "[Connection]/Folder/Tag1",
-        "[Connection]/Folder/Tag2"};
-            this.mTagsLamp1.Text = "-";
-            this.mTagsLamp1.Texts = new string[] {
-        "ON",
-        "OFF"};
-            this.mTagsLamp1.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -9059,15 +9090,8 @@
         private System.Windows.Forms.Label label227;
         private System.Windows.Forms.Label label228;
         private System.Windows.Forms.Label label34;
-        private NanoX.SCADAToolLibrary.MGraphic.MTagsLamp mTagsLamp6;
-        private NanoX.SCADAToolLibrary.MGraphic.MTagsLamp mTagsLamp5;
-        private NanoX.SCADAToolLibrary.MGraphic.MTagsLamp mTagsLamp4;
-        private NanoX.SCADAToolLibrary.MGraphic.MTagsLamp mTagsLamp3;
-        private NanoX.SCADAToolLibrary.MGraphic.MTagsLamp mTagsLamp2;
-        private NanoX.SCADAToolLibrary.MGraphic.MTagsLamp mTagsLamp1;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel1;
         private NanoX.SCADA.WinForms.Connector.NanoXConnector nanoXConnector1;
-        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel41;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel42;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel43;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel44;
@@ -9075,7 +9099,6 @@
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel46;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel47;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel48;
-        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel33;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel34;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel35;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel36;
@@ -9083,7 +9106,6 @@
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel38;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel39;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel40;
-        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel25;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel26;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel27;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel28;
@@ -9091,7 +9113,6 @@
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel30;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel31;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel32;
-        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel17;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel18;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel19;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel20;
@@ -9099,7 +9120,6 @@
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel22;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel23;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel24;
-        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel9;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel10;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel11;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel12;
@@ -9108,7 +9128,6 @@
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel15;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel16;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel49;
-        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel7;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel8;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel4;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel5;
@@ -9258,5 +9277,17 @@
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel166;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel167;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel168;
+        private NanoX.SCADAToolLibrary.MGraphic.NanoXLamp4Tag nanoXLamp4Tag1;
+        private NanoX.SCADAToolLibrary.MGraphic.NanoXLamp4Tag nanoXLamp4Tag6;
+        private NanoX.SCADAToolLibrary.MGraphic.NanoXLamp4Tag nanoXLamp4Tag5;
+        private NanoX.SCADAToolLibrary.MGraphic.NanoXLamp4Tag nanoXLamp4Tag4;
+        private NanoX.SCADAToolLibrary.MGraphic.NanoXLamp4Tag nanoXLamp4Tag3;
+        private NanoX.SCADAToolLibrary.MGraphic.NanoXLamp4Tag nanoXLamp4Tag2;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabelWarning nanoXLabelWarning1;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabelWarning nanoXLabelWarning6;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabelWarning nanoXLabelWarning5;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabelWarning nanoXLabelWarning4;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabelWarning nanoXLabelWarning3;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabelWarning nanoXLabelWarning2;
     }
 }

@@ -90,7 +90,8 @@ namespace WinFormNanoX_Kyodo
             this.DialogResult = DialogResult.OK;
             foreach (DataRow row in dataTable.Rows)
             {
-                option = row[3].ToString();
+                // Lấy Option theo tên cột để tránh lỗi khi thay đổi thứ tự cột
+                option = row["Option"]?.ToString() ?? "";
             }
             if (option.Contains("1"))
             {

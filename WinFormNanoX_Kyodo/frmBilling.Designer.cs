@@ -60,6 +60,8 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.mSignateAreaChart1 = new NanoX.SCADAToolLibrary.MGraphic.MSignateAreaChart();
+            this.mSignateColumnChart1 = new NanoX.SCADAToolLibrary.MGraphic.MSignateColumnChart();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -415,10 +417,41 @@
             this.label1.Text = "BILLING";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // mSignateAreaChart1
+            // 
+            this.mSignateAreaChart1.BackColor = System.Drawing.Color.White;
+            this.mSignateAreaChart1.Collection = new string[0];
+            this.mSignateAreaChart1.Database = "scada";
+            this.mSignateAreaChart1.Location = new System.Drawing.Point(59, 66);
+            this.mSignateAreaChart1.Name = "mSignateAreaChart1";
+            this.mSignateAreaChart1.Password = "1234";
+            this.mSignateAreaChart1.Server = "localhost";
+            this.mSignateAreaChart1.Size = new System.Drawing.Size(1161, 393);
+            this.mSignateAreaChart1.TabIndex = 2088;
+            this.mSignateAreaChart1.TableName = "proc_signage_month";
+            this.mSignateAreaChart1.UserName = "root";
+            // 
+            // mSignateColumnChart1
+            // 
+            this.mSignateColumnChart1.BackColor = System.Drawing.Color.White;
+            this.mSignateColumnChart1.Collection = new string[0];
+            this.mSignateColumnChart1.Database = "scada";
+            this.mSignateColumnChart1.Location = new System.Drawing.Point(63, 486);
+            this.mSignateColumnChart1.Name = "mSignateColumnChart1";
+            this.mSignateColumnChart1.Password = "1234";
+            this.mSignateColumnChart1.Server = "localhost";
+            this.mSignateColumnChart1.Size = new System.Drawing.Size(1157, 392);
+            this.mSignateColumnChart1.TabIndex = 2089;
+            this.mSignateColumnChart1.TableName = "proc_signage_year";
+            this.mSignateColumnChart1.UserName = "root";
+            // 
             // frmBilling
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1920, 935);
+            this.Controls.Add(this.mSignateColumnChart1);
+            this.Controls.Add(this.mSignateAreaChart1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox1);
@@ -472,5 +505,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label1;
+        private NanoX.SCADAToolLibrary.MGraphic.MSignateAreaChart mSignateAreaChart1;
+        private NanoX.SCADAToolLibrary.MGraphic.MSignateColumnChart mSignateColumnChart1;
     }
 }
