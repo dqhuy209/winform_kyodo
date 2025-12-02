@@ -353,93 +353,137 @@
             this.xRotatableLabel96 = new NanoX.SCADAToolLibrary.MGraphic.XRotatableLabel();
             this.xRotatableLabel97 = new NanoX.SCADAToolLibrary.MGraphic.XRotatableLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.nanoXLabel26 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel65 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel66 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
+            this.nanoXLabel25 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel67 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel68 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
+            this.nanoXLabel24 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel69 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel70 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
+            this.nanoXLabel23 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel71 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
+            this.nanoXLabel22 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel72 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel57 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
+            this.nanoXLabel21 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel58 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel59 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
+            this.nanoXLabel20 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel60 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel61 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
+            this.nanoXLabel19 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel62 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel63 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
+            this.nanoXLabel17 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel64 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel53 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
+            this.nanoXLabel16 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel54 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel55 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
+            this.nanoXLabel15 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel56 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel51 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
+            this.nanoXLabel14 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel52 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel50 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
+            this.nanoXLabel13 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel49 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
+            this.nanoXLabel12 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel7 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel8 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
+            this.nanoXLabel11 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel4 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel5 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
+            this.nanoXLabel10 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel6 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel3 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
+            this.label58 = new System.Windows.Forms.Label();
             this.nanoXLabel2 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel1 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
-            this.mTagsLamp3 = new NanoX.SCADAToolLibrary.MGraphic.MTagsLamp();
+            this.label57 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label131 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
             this.label132 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label75 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
             this.label76 = new System.Windows.Forms.Label();
             this.label82 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
             this.label121 = new System.Windows.Forms.Label();
             this.label122 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.label130 = new System.Windows.Forms.Label();
             this.label145 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.label146 = new System.Windows.Forms.Label();
             this.label151 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.label166 = new System.Windows.Forms.Label();
             this.label167 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.label172 = new System.Windows.Forms.Label();
             this.label173 = new System.Windows.Forms.Label();
             this.label197 = new System.Windows.Forms.Label();
+            this.nanoXLabel18 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
+            this.label36 = new System.Windows.Forms.Label();
             this.label218 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
             this.label219 = new System.Windows.Forms.Label();
             this.label220 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.label221 = new System.Windows.Forms.Label();
             this.label222 = new System.Windows.Forms.Label();
+            this.nanoXLabel9 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.label223 = new System.Windows.Forms.Label();
             this.label224 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
             this.label225 = new System.Windows.Forms.Label();
             this.label226 = new System.Windows.Forms.Label();
             this.label227 = new System.Windows.Forms.Label();
             this.label228 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.xDisplayParameterPINa22 = new NanoX.SCADAToolLibrary.MGraphic.XDisplayParameterPINa();
             this.xDisplayParameterPINa23 = new NanoX.SCADAToolLibrary.MGraphic.XDisplayParameterPINa();
             this.xDisplayParameterPINa24 = new NanoX.SCADAToolLibrary.MGraphic.XDisplayParameterPINa();
@@ -466,6 +510,7 @@
             this.xDisplayParameterPINa1 = new NanoX.SCADAToolLibrary.MGraphic.XDisplayParameterPINa();
             this.xDisplayParameterPINa13 = new NanoX.SCADAToolLibrary.MGraphic.XDisplayParameterPINa();
             this.xDisplayParameterPINa26 = new NanoX.SCADAToolLibrary.MGraphic.XDisplayParameterPINa();
+            this.nanoXLamp3 = new NanoX.SCADAToolLibrary.XLabel.NanoXLamp();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -473,7 +518,7 @@
             // label56
             // 
             this.label56.BackColor = System.Drawing.Color.Red;
-            this.label56.Location = new System.Drawing.Point(1813, 19);
+            this.label56.Location = new System.Drawing.Point(1630, 20);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(30, 10);
             this.label56.TabIndex = 4285;
@@ -481,7 +526,7 @@
             // label55
             // 
             this.label55.BackColor = System.Drawing.Color.Aqua;
-            this.label55.Location = new System.Drawing.Point(1813, 34);
+            this.label55.Location = new System.Drawing.Point(1630, 41);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(30, 10);
             this.label55.TabIndex = 4284;
@@ -489,7 +534,7 @@
             // label42
             // 
             this.label42.BackColor = System.Drawing.Color.Silver;
-            this.label42.Location = new System.Drawing.Point(1708, 34);
+            this.label42.Location = new System.Drawing.Point(1540, 41);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(30, 10);
             this.label42.TabIndex = 4282;
@@ -497,7 +542,7 @@
             // label41
             // 
             this.label41.BackColor = System.Drawing.Color.Lime;
-            this.label41.Location = new System.Drawing.Point(1708, 19);
+            this.label41.Location = new System.Drawing.Point(1540, 20);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(30, 10);
             this.label41.TabIndex = 4283;
@@ -512,9 +557,10 @@
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox2.Location = new System.Drawing.Point(320, 0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1600, 800);
+            this.pictureBox2.Size = new System.Drawing.Size(1418, 800);
             this.pictureBox2.TabIndex = 4249;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox2_Paint);
             // 
             // xDisplayParameterPINb19
             // 
@@ -4237,104 +4283,166 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.nanoXLamp3);
+            this.groupBox1.Controls.Add(this.nanoXLabel26);
             this.groupBox1.Controls.Add(this.nanoXLabel65);
             this.groupBox1.Controls.Add(this.nanoXLabel66);
+            this.groupBox1.Controls.Add(this.nanoXLabel25);
             this.groupBox1.Controls.Add(this.nanoXLabel67);
             this.groupBox1.Controls.Add(this.nanoXLabel68);
+            this.groupBox1.Controls.Add(this.nanoXLabel24);
             this.groupBox1.Controls.Add(this.nanoXLabel69);
             this.groupBox1.Controls.Add(this.nanoXLabel70);
+            this.groupBox1.Controls.Add(this.nanoXLabel23);
             this.groupBox1.Controls.Add(this.nanoXLabel71);
+            this.groupBox1.Controls.Add(this.nanoXLabel22);
             this.groupBox1.Controls.Add(this.nanoXLabel72);
             this.groupBox1.Controls.Add(this.nanoXLabel57);
+            this.groupBox1.Controls.Add(this.nanoXLabel21);
             this.groupBox1.Controls.Add(this.nanoXLabel58);
             this.groupBox1.Controls.Add(this.nanoXLabel59);
+            this.groupBox1.Controls.Add(this.nanoXLabel20);
             this.groupBox1.Controls.Add(this.nanoXLabel60);
             this.groupBox1.Controls.Add(this.nanoXLabel61);
+            this.groupBox1.Controls.Add(this.nanoXLabel19);
             this.groupBox1.Controls.Add(this.nanoXLabel62);
             this.groupBox1.Controls.Add(this.nanoXLabel63);
+            this.groupBox1.Controls.Add(this.nanoXLabel17);
             this.groupBox1.Controls.Add(this.nanoXLabel64);
             this.groupBox1.Controls.Add(this.nanoXLabel53);
+            this.groupBox1.Controls.Add(this.nanoXLabel16);
             this.groupBox1.Controls.Add(this.nanoXLabel54);
             this.groupBox1.Controls.Add(this.nanoXLabel55);
+            this.groupBox1.Controls.Add(this.nanoXLabel15);
             this.groupBox1.Controls.Add(this.nanoXLabel56);
             this.groupBox1.Controls.Add(this.nanoXLabel51);
+            this.groupBox1.Controls.Add(this.nanoXLabel14);
             this.groupBox1.Controls.Add(this.nanoXLabel52);
             this.groupBox1.Controls.Add(this.nanoXLabel50);
+            this.groupBox1.Controls.Add(this.nanoXLabel13);
             this.groupBox1.Controls.Add(this.nanoXLabel49);
+            this.groupBox1.Controls.Add(this.nanoXLabel12);
             this.groupBox1.Controls.Add(this.nanoXLabel7);
             this.groupBox1.Controls.Add(this.nanoXLabel8);
+            this.groupBox1.Controls.Add(this.nanoXLabel11);
             this.groupBox1.Controls.Add(this.nanoXLabel4);
             this.groupBox1.Controls.Add(this.nanoXLabel5);
+            this.groupBox1.Controls.Add(this.nanoXLabel10);
             this.groupBox1.Controls.Add(this.nanoXLabel6);
             this.groupBox1.Controls.Add(this.nanoXLabel3);
+            this.groupBox1.Controls.Add(this.label58);
             this.groupBox1.Controls.Add(this.nanoXLabel2);
             this.groupBox1.Controls.Add(this.nanoXLabel1);
-            this.groupBox1.Controls.Add(this.mTagsLamp3);
+            this.groupBox1.Controls.Add(this.label57);
             this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.label54);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label53);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label52);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.label51);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.label50);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.label131);
+            this.groupBox1.Controls.Add(this.label49);
             this.groupBox1.Controls.Add(this.label132);
             this.groupBox1.Controls.Add(this.label35);
+            this.groupBox1.Controls.Add(this.label47);
             this.groupBox1.Controls.Add(this.label15);
             this.groupBox1.Controls.Add(this.label16);
+            this.groupBox1.Controls.Add(this.label46);
             this.groupBox1.Controls.Add(this.label21);
             this.groupBox1.Controls.Add(this.label22);
+            this.groupBox1.Controls.Add(this.label45);
             this.groupBox1.Controls.Add(this.label23);
             this.groupBox1.Controls.Add(this.label24);
+            this.groupBox1.Controls.Add(this.label44);
             this.groupBox1.Controls.Add(this.label25);
             this.groupBox1.Controls.Add(this.label26);
+            this.groupBox1.Controls.Add(this.label43);
             this.groupBox1.Controls.Add(this.label27);
             this.groupBox1.Controls.Add(this.label28);
+            this.groupBox1.Controls.Add(this.label40);
             this.groupBox1.Controls.Add(this.label29);
             this.groupBox1.Controls.Add(this.label30);
+            this.groupBox1.Controls.Add(this.label39);
             this.groupBox1.Controls.Add(this.label31);
             this.groupBox1.Controls.Add(this.label32);
+            this.groupBox1.Controls.Add(this.label38);
             this.groupBox1.Controls.Add(this.label33);
             this.groupBox1.Controls.Add(this.label75);
+            this.groupBox1.Controls.Add(this.label20);
             this.groupBox1.Controls.Add(this.label76);
             this.groupBox1.Controls.Add(this.label82);
+            this.groupBox1.Controls.Add(this.label19);
             this.groupBox1.Controls.Add(this.label121);
             this.groupBox1.Controls.Add(this.label122);
+            this.groupBox1.Controls.Add(this.label17);
             this.groupBox1.Controls.Add(this.label130);
             this.groupBox1.Controls.Add(this.label145);
+            this.groupBox1.Controls.Add(this.label14);
             this.groupBox1.Controls.Add(this.label146);
             this.groupBox1.Controls.Add(this.label151);
+            this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.label166);
             this.groupBox1.Controls.Add(this.label167);
+            this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.label172);
             this.groupBox1.Controls.Add(this.label173);
             this.groupBox1.Controls.Add(this.label197);
+            this.groupBox1.Controls.Add(this.nanoXLabel18);
+            this.groupBox1.Controls.Add(this.label36);
             this.groupBox1.Controls.Add(this.label218);
+            this.groupBox1.Controls.Add(this.label48);
             this.groupBox1.Controls.Add(this.label219);
             this.groupBox1.Controls.Add(this.label220);
+            this.groupBox1.Controls.Add(this.label18);
             this.groupBox1.Controls.Add(this.label221);
             this.groupBox1.Controls.Add(this.label222);
+            this.groupBox1.Controls.Add(this.nanoXLabel9);
             this.groupBox1.Controls.Add(this.label223);
             this.groupBox1.Controls.Add(this.label224);
+            this.groupBox1.Controls.Add(this.label37);
             this.groupBox1.Controls.Add(this.label225);
             this.groupBox1.Controls.Add(this.label226);
             this.groupBox1.Controls.Add(this.label227);
             this.groupBox1.Controls.Add(this.label228);
             this.groupBox1.Controls.Add(this.label34);
-            this.groupBox1.Location = new System.Drawing.Point(11, 0);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Location = new System.Drawing.Point(11, -5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(290, 749);
+            this.groupBox1.Size = new System.Drawing.Size(290, 995);
             this.groupBox1.TabIndex = 4663;
             this.groupBox1.TabStop = false;
             // 
+            // nanoXLabel26
+            // 
+            this.nanoXLabel26.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel26.Decimal = null;
+            this.nanoXLabel26.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel26.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel26.Location = new System.Drawing.Point(200, 958);
+            this.nanoXLabel26.Name = "nanoXLabel26";
+            this.nanoXLabel26.NodePath = "";
+            this.nanoXLabel26.PropertyName = "EngValue";
+            this.nanoXLabel26.scale = 1D;
+            this.nanoXLabel26.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel26.TabIndex = 3414;
+            this.nanoXLabel26.Text = "--";
+            this.nanoXLabel26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // nanoXLabel65
             // 
-            this.nanoXLabel65.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel65.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel65.Decimal = null;
             this.nanoXLabel65.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel65.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel65.Location = new System.Drawing.Point(200, 688);
             this.nanoXLabel65.Name = "nanoXLabel65";
             this.nanoXLabel65.NodePath = "";
@@ -4347,9 +4455,10 @@
             // 
             // nanoXLabel66
             // 
-            this.nanoXLabel66.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel66.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel66.Decimal = null;
             this.nanoXLabel66.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel66.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel66.Location = new System.Drawing.Point(113, 688);
             this.nanoXLabel66.Name = "nanoXLabel66";
             this.nanoXLabel66.NodePath = "";
@@ -4360,11 +4469,28 @@
             this.nanoXLabel66.Text = "--";
             this.nanoXLabel66.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nanoXLabel25
+            // 
+            this.nanoXLabel25.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel25.Decimal = null;
+            this.nanoXLabel25.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel25.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel25.Location = new System.Drawing.Point(200, 928);
+            this.nanoXLabel25.Name = "nanoXLabel25";
+            this.nanoXLabel25.NodePath = "";
+            this.nanoXLabel25.PropertyName = "EngValue";
+            this.nanoXLabel25.scale = 1D;
+            this.nanoXLabel25.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel25.TabIndex = 3413;
+            this.nanoXLabel25.Text = "--";
+            this.nanoXLabel25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // nanoXLabel67
             // 
-            this.nanoXLabel67.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel67.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel67.Decimal = null;
             this.nanoXLabel67.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel67.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel67.Location = new System.Drawing.Point(200, 658);
             this.nanoXLabel67.Name = "nanoXLabel67";
             this.nanoXLabel67.NodePath = "";
@@ -4377,9 +4503,10 @@
             // 
             // nanoXLabel68
             // 
-            this.nanoXLabel68.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel68.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel68.Decimal = null;
             this.nanoXLabel68.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel68.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel68.Location = new System.Drawing.Point(113, 658);
             this.nanoXLabel68.Name = "nanoXLabel68";
             this.nanoXLabel68.NodePath = "";
@@ -4390,11 +4517,28 @@
             this.nanoXLabel68.Text = "--";
             this.nanoXLabel68.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nanoXLabel24
+            // 
+            this.nanoXLabel24.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel24.Decimal = null;
+            this.nanoXLabel24.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel24.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel24.Location = new System.Drawing.Point(200, 898);
+            this.nanoXLabel24.Name = "nanoXLabel24";
+            this.nanoXLabel24.NodePath = "";
+            this.nanoXLabel24.PropertyName = "EngValue";
+            this.nanoXLabel24.scale = 1D;
+            this.nanoXLabel24.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel24.TabIndex = 3412;
+            this.nanoXLabel24.Text = "--";
+            this.nanoXLabel24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // nanoXLabel69
             // 
-            this.nanoXLabel69.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel69.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel69.Decimal = null;
             this.nanoXLabel69.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel69.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel69.Location = new System.Drawing.Point(200, 628);
             this.nanoXLabel69.Name = "nanoXLabel69";
             this.nanoXLabel69.NodePath = "";
@@ -4407,9 +4551,10 @@
             // 
             // nanoXLabel70
             // 
-            this.nanoXLabel70.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel70.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel70.Decimal = null;
             this.nanoXLabel70.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel70.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel70.Location = new System.Drawing.Point(113, 628);
             this.nanoXLabel70.Name = "nanoXLabel70";
             this.nanoXLabel70.NodePath = "";
@@ -4420,11 +4565,28 @@
             this.nanoXLabel70.Text = "--";
             this.nanoXLabel70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nanoXLabel23
+            // 
+            this.nanoXLabel23.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel23.Decimal = null;
+            this.nanoXLabel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel23.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel23.Location = new System.Drawing.Point(200, 868);
+            this.nanoXLabel23.Name = "nanoXLabel23";
+            this.nanoXLabel23.NodePath = "";
+            this.nanoXLabel23.PropertyName = "EngValue";
+            this.nanoXLabel23.scale = 1D;
+            this.nanoXLabel23.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel23.TabIndex = 3411;
+            this.nanoXLabel23.Text = "--";
+            this.nanoXLabel23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // nanoXLabel71
             // 
-            this.nanoXLabel71.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel71.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel71.Decimal = null;
             this.nanoXLabel71.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel71.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel71.Location = new System.Drawing.Point(200, 598);
             this.nanoXLabel71.Name = "nanoXLabel71";
             this.nanoXLabel71.NodePath = "";
@@ -4435,11 +4597,28 @@
             this.nanoXLabel71.Text = "--";
             this.nanoXLabel71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nanoXLabel22
+            // 
+            this.nanoXLabel22.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel22.Decimal = null;
+            this.nanoXLabel22.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel22.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel22.Location = new System.Drawing.Point(200, 838);
+            this.nanoXLabel22.Name = "nanoXLabel22";
+            this.nanoXLabel22.NodePath = "";
+            this.nanoXLabel22.PropertyName = "EngValue";
+            this.nanoXLabel22.scale = 1D;
+            this.nanoXLabel22.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel22.TabIndex = 3409;
+            this.nanoXLabel22.Text = "--";
+            this.nanoXLabel22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // nanoXLabel72
             // 
-            this.nanoXLabel72.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel72.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel72.Decimal = null;
             this.nanoXLabel72.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel72.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel72.Location = new System.Drawing.Point(113, 598);
             this.nanoXLabel72.Name = "nanoXLabel72";
             this.nanoXLabel72.NodePath = "";
@@ -4452,9 +4631,10 @@
             // 
             // nanoXLabel57
             // 
-            this.nanoXLabel57.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel57.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel57.Decimal = null;
             this.nanoXLabel57.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel57.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel57.Location = new System.Drawing.Point(200, 568);
             this.nanoXLabel57.Name = "nanoXLabel57";
             this.nanoXLabel57.NodePath = "";
@@ -4465,11 +4645,28 @@
             this.nanoXLabel57.Text = "--";
             this.nanoXLabel57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nanoXLabel21
+            // 
+            this.nanoXLabel21.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel21.Decimal = null;
+            this.nanoXLabel21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel21.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel21.Location = new System.Drawing.Point(200, 808);
+            this.nanoXLabel21.Name = "nanoXLabel21";
+            this.nanoXLabel21.NodePath = "";
+            this.nanoXLabel21.PropertyName = "EngValue";
+            this.nanoXLabel21.scale = 1D;
+            this.nanoXLabel21.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel21.TabIndex = 3408;
+            this.nanoXLabel21.Text = "--";
+            this.nanoXLabel21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // nanoXLabel58
             // 
-            this.nanoXLabel58.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel58.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel58.Decimal = null;
             this.nanoXLabel58.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel58.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel58.Location = new System.Drawing.Point(113, 568);
             this.nanoXLabel58.Name = "nanoXLabel58";
             this.nanoXLabel58.NodePath = "";
@@ -4482,9 +4679,10 @@
             // 
             // nanoXLabel59
             // 
-            this.nanoXLabel59.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel59.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel59.Decimal = null;
             this.nanoXLabel59.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel59.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel59.Location = new System.Drawing.Point(200, 538);
             this.nanoXLabel59.Name = "nanoXLabel59";
             this.nanoXLabel59.NodePath = "";
@@ -4495,11 +4693,28 @@
             this.nanoXLabel59.Text = "--";
             this.nanoXLabel59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nanoXLabel20
+            // 
+            this.nanoXLabel20.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel20.Decimal = null;
+            this.nanoXLabel20.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel20.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel20.Location = new System.Drawing.Point(200, 778);
+            this.nanoXLabel20.Name = "nanoXLabel20";
+            this.nanoXLabel20.NodePath = "";
+            this.nanoXLabel20.PropertyName = "EngValue";
+            this.nanoXLabel20.scale = 1D;
+            this.nanoXLabel20.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel20.TabIndex = 3407;
+            this.nanoXLabel20.Text = "--";
+            this.nanoXLabel20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // nanoXLabel60
             // 
-            this.nanoXLabel60.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel60.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel60.Decimal = null;
             this.nanoXLabel60.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel60.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel60.Location = new System.Drawing.Point(113, 538);
             this.nanoXLabel60.Name = "nanoXLabel60";
             this.nanoXLabel60.NodePath = "";
@@ -4512,9 +4727,10 @@
             // 
             // nanoXLabel61
             // 
-            this.nanoXLabel61.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel61.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel61.Decimal = null;
             this.nanoXLabel61.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel61.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel61.Location = new System.Drawing.Point(200, 508);
             this.nanoXLabel61.Name = "nanoXLabel61";
             this.nanoXLabel61.NodePath = "";
@@ -4525,11 +4741,28 @@
             this.nanoXLabel61.Text = "--";
             this.nanoXLabel61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nanoXLabel19
+            // 
+            this.nanoXLabel19.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel19.Decimal = null;
+            this.nanoXLabel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel19.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel19.Location = new System.Drawing.Point(200, 748);
+            this.nanoXLabel19.Name = "nanoXLabel19";
+            this.nanoXLabel19.NodePath = "";
+            this.nanoXLabel19.PropertyName = "EngValue";
+            this.nanoXLabel19.scale = 1D;
+            this.nanoXLabel19.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel19.TabIndex = 3406;
+            this.nanoXLabel19.Text = "--";
+            this.nanoXLabel19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // nanoXLabel62
             // 
-            this.nanoXLabel62.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel62.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel62.Decimal = null;
             this.nanoXLabel62.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel62.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel62.Location = new System.Drawing.Point(113, 508);
             this.nanoXLabel62.Name = "nanoXLabel62";
             this.nanoXLabel62.NodePath = "";
@@ -4542,9 +4775,10 @@
             // 
             // nanoXLabel63
             // 
-            this.nanoXLabel63.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel63.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel63.Decimal = null;
             this.nanoXLabel63.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel63.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel63.Location = new System.Drawing.Point(200, 478);
             this.nanoXLabel63.Name = "nanoXLabel63";
             this.nanoXLabel63.NodePath = "";
@@ -4555,11 +4789,28 @@
             this.nanoXLabel63.Text = "--";
             this.nanoXLabel63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nanoXLabel17
+            // 
+            this.nanoXLabel17.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel17.Decimal = null;
+            this.nanoXLabel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel17.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel17.Location = new System.Drawing.Point(113, 958);
+            this.nanoXLabel17.Name = "nanoXLabel17";
+            this.nanoXLabel17.NodePath = "";
+            this.nanoXLabel17.PropertyName = "EngValue";
+            this.nanoXLabel17.scale = 1D;
+            this.nanoXLabel17.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel17.TabIndex = 3400;
+            this.nanoXLabel17.Text = "--";
+            this.nanoXLabel17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // nanoXLabel64
             // 
-            this.nanoXLabel64.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel64.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel64.Decimal = null;
             this.nanoXLabel64.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel64.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel64.Location = new System.Drawing.Point(113, 478);
             this.nanoXLabel64.Name = "nanoXLabel64";
             this.nanoXLabel64.NodePath = "";
@@ -4572,9 +4823,10 @@
             // 
             // nanoXLabel53
             // 
-            this.nanoXLabel53.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel53.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel53.Decimal = null;
             this.nanoXLabel53.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel53.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel53.Location = new System.Drawing.Point(200, 448);
             this.nanoXLabel53.Name = "nanoXLabel53";
             this.nanoXLabel53.NodePath = "";
@@ -4585,11 +4837,28 @@
             this.nanoXLabel53.Text = "--";
             this.nanoXLabel53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nanoXLabel16
+            // 
+            this.nanoXLabel16.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel16.Decimal = null;
+            this.nanoXLabel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel16.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel16.Location = new System.Drawing.Point(113, 928);
+            this.nanoXLabel16.Name = "nanoXLabel16";
+            this.nanoXLabel16.NodePath = "";
+            this.nanoXLabel16.PropertyName = "EngValue";
+            this.nanoXLabel16.scale = 1D;
+            this.nanoXLabel16.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel16.TabIndex = 3398;
+            this.nanoXLabel16.Text = "--";
+            this.nanoXLabel16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // nanoXLabel54
             // 
-            this.nanoXLabel54.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel54.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel54.Decimal = null;
             this.nanoXLabel54.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel54.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel54.Location = new System.Drawing.Point(113, 448);
             this.nanoXLabel54.Name = "nanoXLabel54";
             this.nanoXLabel54.NodePath = "";
@@ -4602,9 +4871,10 @@
             // 
             // nanoXLabel55
             // 
-            this.nanoXLabel55.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel55.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel55.Decimal = null;
             this.nanoXLabel55.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel55.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel55.Location = new System.Drawing.Point(200, 418);
             this.nanoXLabel55.Name = "nanoXLabel55";
             this.nanoXLabel55.NodePath = "";
@@ -4615,11 +4885,28 @@
             this.nanoXLabel55.Text = "--";
             this.nanoXLabel55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nanoXLabel15
+            // 
+            this.nanoXLabel15.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel15.Decimal = null;
+            this.nanoXLabel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel15.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel15.Location = new System.Drawing.Point(113, 898);
+            this.nanoXLabel15.Name = "nanoXLabel15";
+            this.nanoXLabel15.NodePath = "";
+            this.nanoXLabel15.PropertyName = "EngValue";
+            this.nanoXLabel15.scale = 1D;
+            this.nanoXLabel15.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel15.TabIndex = 3399;
+            this.nanoXLabel15.Text = "--";
+            this.nanoXLabel15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // nanoXLabel56
             // 
-            this.nanoXLabel56.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel56.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel56.Decimal = null;
             this.nanoXLabel56.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel56.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel56.Location = new System.Drawing.Point(113, 418);
             this.nanoXLabel56.Name = "nanoXLabel56";
             this.nanoXLabel56.NodePath = "";
@@ -4632,9 +4919,10 @@
             // 
             // nanoXLabel51
             // 
-            this.nanoXLabel51.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel51.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel51.Decimal = null;
             this.nanoXLabel51.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel51.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel51.Location = new System.Drawing.Point(200, 388);
             this.nanoXLabel51.Name = "nanoXLabel51";
             this.nanoXLabel51.NodePath = "";
@@ -4645,11 +4933,28 @@
             this.nanoXLabel51.Text = "--";
             this.nanoXLabel51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nanoXLabel14
+            // 
+            this.nanoXLabel14.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel14.Decimal = null;
+            this.nanoXLabel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel14.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel14.Location = new System.Drawing.Point(113, 868);
+            this.nanoXLabel14.Name = "nanoXLabel14";
+            this.nanoXLabel14.NodePath = "";
+            this.nanoXLabel14.PropertyName = "EngValue";
+            this.nanoXLabel14.scale = 1D;
+            this.nanoXLabel14.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel14.TabIndex = 3405;
+            this.nanoXLabel14.Text = "--";
+            this.nanoXLabel14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // nanoXLabel52
             // 
-            this.nanoXLabel52.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel52.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel52.Decimal = null;
             this.nanoXLabel52.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel52.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel52.Location = new System.Drawing.Point(113, 388);
             this.nanoXLabel52.Name = "nanoXLabel52";
             this.nanoXLabel52.NodePath = "";
@@ -4662,9 +4967,10 @@
             // 
             // nanoXLabel50
             // 
-            this.nanoXLabel50.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel50.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel50.Decimal = null;
             this.nanoXLabel50.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel50.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel50.Location = new System.Drawing.Point(200, 358);
             this.nanoXLabel50.Name = "nanoXLabel50";
             this.nanoXLabel50.NodePath = "";
@@ -4675,11 +4981,28 @@
             this.nanoXLabel50.Text = "--";
             this.nanoXLabel50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nanoXLabel13
+            // 
+            this.nanoXLabel13.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel13.Decimal = null;
+            this.nanoXLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel13.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel13.Location = new System.Drawing.Point(113, 838);
+            this.nanoXLabel13.Name = "nanoXLabel13";
+            this.nanoXLabel13.NodePath = "";
+            this.nanoXLabel13.PropertyName = "EngValue";
+            this.nanoXLabel13.scale = 1D;
+            this.nanoXLabel13.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel13.TabIndex = 3401;
+            this.nanoXLabel13.Text = "--";
+            this.nanoXLabel13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // nanoXLabel49
             // 
-            this.nanoXLabel49.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel49.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel49.Decimal = null;
             this.nanoXLabel49.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel49.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel49.Location = new System.Drawing.Point(113, 358);
             this.nanoXLabel49.Name = "nanoXLabel49";
             this.nanoXLabel49.NodePath = "";
@@ -4690,11 +5013,28 @@
             this.nanoXLabel49.Text = "--";
             this.nanoXLabel49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nanoXLabel12
+            // 
+            this.nanoXLabel12.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel12.Decimal = null;
+            this.nanoXLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel12.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel12.Location = new System.Drawing.Point(113, 808);
+            this.nanoXLabel12.Name = "nanoXLabel12";
+            this.nanoXLabel12.NodePath = "";
+            this.nanoXLabel12.PropertyName = "EngValue";
+            this.nanoXLabel12.scale = 1D;
+            this.nanoXLabel12.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel12.TabIndex = 3402;
+            this.nanoXLabel12.Text = "--";
+            this.nanoXLabel12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // nanoXLabel7
             // 
-            this.nanoXLabel7.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel7.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel7.Decimal = null;
             this.nanoXLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel7.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel7.Location = new System.Drawing.Point(112, 328);
             this.nanoXLabel7.Name = "nanoXLabel7";
             this.nanoXLabel7.NodePath = "";
@@ -4707,9 +5047,10 @@
             // 
             // nanoXLabel8
             // 
-            this.nanoXLabel8.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel8.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel8.Decimal = null;
             this.nanoXLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel8.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel8.Location = new System.Drawing.Point(112, 298);
             this.nanoXLabel8.Name = "nanoXLabel8";
             this.nanoXLabel8.NodePath = "";
@@ -4720,11 +5061,28 @@
             this.nanoXLabel8.Text = "--";
             this.nanoXLabel8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nanoXLabel11
+            // 
+            this.nanoXLabel11.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel11.Decimal = null;
+            this.nanoXLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel11.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel11.Location = new System.Drawing.Point(113, 778);
+            this.nanoXLabel11.Name = "nanoXLabel11";
+            this.nanoXLabel11.NodePath = "";
+            this.nanoXLabel11.PropertyName = "EngValue";
+            this.nanoXLabel11.scale = 1D;
+            this.nanoXLabel11.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel11.TabIndex = 3403;
+            this.nanoXLabel11.Text = "--";
+            this.nanoXLabel11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // nanoXLabel4
             // 
-            this.nanoXLabel4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel4.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel4.Decimal = null;
             this.nanoXLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel4.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel4.Location = new System.Drawing.Point(112, 268);
             this.nanoXLabel4.Name = "nanoXLabel4";
             this.nanoXLabel4.NodePath = "";
@@ -4737,9 +5095,10 @@
             // 
             // nanoXLabel5
             // 
-            this.nanoXLabel5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel5.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel5.Decimal = null;
             this.nanoXLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel5.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel5.Location = new System.Drawing.Point(112, 238);
             this.nanoXLabel5.Name = "nanoXLabel5";
             this.nanoXLabel5.NodePath = "";
@@ -4750,11 +5109,28 @@
             this.nanoXLabel5.Text = "--";
             this.nanoXLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nanoXLabel10
+            // 
+            this.nanoXLabel10.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel10.Decimal = null;
+            this.nanoXLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel10.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel10.Location = new System.Drawing.Point(113, 748);
+            this.nanoXLabel10.Name = "nanoXLabel10";
+            this.nanoXLabel10.NodePath = "";
+            this.nanoXLabel10.PropertyName = "EngValue";
+            this.nanoXLabel10.scale = 1D;
+            this.nanoXLabel10.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel10.TabIndex = 3404;
+            this.nanoXLabel10.Text = "--";
+            this.nanoXLabel10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // nanoXLabel6
             // 
-            this.nanoXLabel6.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel6.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel6.Decimal = null;
             this.nanoXLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel6.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel6.Location = new System.Drawing.Point(112, 208);
             this.nanoXLabel6.Name = "nanoXLabel6";
             this.nanoXLabel6.NodePath = "";
@@ -4767,9 +5143,10 @@
             // 
             // nanoXLabel3
             // 
-            this.nanoXLabel3.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel3.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel3.Decimal = null;
             this.nanoXLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel3.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel3.Location = new System.Drawing.Point(112, 178);
             this.nanoXLabel3.Name = "nanoXLabel3";
             this.nanoXLabel3.NodePath = "";
@@ -4780,11 +5157,26 @@
             this.nanoXLabel3.Text = "--";
             this.nanoXLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label58
+            // 
+            this.label58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label58.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.ForeColor = System.Drawing.Color.White;
+            this.label58.Location = new System.Drawing.Point(256, 958);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(30, 29);
+            this.label58.TabIndex = 3395;
+            this.label58.Text = "V";
+            this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // nanoXLabel2
             // 
-            this.nanoXLabel2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel2.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel2.Decimal = null;
             this.nanoXLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel2.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel2.Location = new System.Drawing.Point(112, 148);
             this.nanoXLabel2.Name = "nanoXLabel2";
             this.nanoXLabel2.NodePath = "[Connection]/Folder/Tag2";
@@ -4797,9 +5189,10 @@
             // 
             // nanoXLabel1
             // 
-            this.nanoXLabel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel1.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel1.Decimal = null;
             this.nanoXLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel1.ForeColor = System.Drawing.Color.Lime;
             this.nanoXLabel1.Location = new System.Drawing.Point(112, 118);
             this.nanoXLabel1.Name = "nanoXLabel1";
             this.nanoXLabel1.NodePath = "[Connection]/Folder/Tag1";
@@ -4810,27 +5203,19 @@
             this.nanoXLabel1.Text = "--";
             this.nanoXLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // mTagsLamp3
+            // label57
             // 
-            this.mTagsLamp3.BackColor = System.Drawing.Color.Gray;
-            this.mTagsLamp3.BackColors = new System.Drawing.Color[0];
-            this.mTagsLamp3.DefaultBackColor = System.Drawing.Color.Gray;
-            this.mTagsLamp3.DefaultForeColor = System.Drawing.Color.Black;
-            this.mTagsLamp3.DefaultText = "-";
-            this.mTagsLamp3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.mTagsLamp3.ForeColor = System.Drawing.Color.Black;
-            this.mTagsLamp3.ForeColors = new System.Drawing.Color[0];
-            this.mTagsLamp3.Location = new System.Drawing.Point(150, 55);
-            this.mTagsLamp3.Name = "mTagsLamp3";
-            this.mTagsLamp3.Size = new System.Drawing.Size(130, 40);
-            this.mTagsLamp3.TabIndex = 3307;
-            this.mTagsLamp3.TagPaths = new string[] {
-        "[Connection]/Folder/Tag1",
-        "[Connection]/Folder/Tag2"};
-            this.mTagsLamp3.Text = "-";
-            this.mTagsLamp3.Texts = new string[] {
-        "Trip"};
-            this.mTagsLamp3.UseVisualStyleBackColor = false;
+            this.label57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label57.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.ForeColor = System.Drawing.Color.White;
+            this.label57.Location = new System.Drawing.Point(256, 928);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(30, 29);
+            this.label57.TabIndex = 3394;
+            this.label57.Text = "V";
+            this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
@@ -4845,6 +5230,20 @@
             this.label1.TabIndex = 3279;
             this.label1.Text = "V";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label54
+            // 
+            this.label54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label54.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.ForeColor = System.Drawing.Color.White;
+            this.label54.Location = new System.Drawing.Point(256, 898);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(30, 29);
+            this.label54.TabIndex = 3393;
+            this.label54.Text = "V";
+            this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
@@ -4874,6 +5273,20 @@
             this.label3.Text = "V";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label53
+            // 
+            this.label53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label53.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.ForeColor = System.Drawing.Color.White;
+            this.label53.Location = new System.Drawing.Point(256, 868);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(30, 29);
+            this.label53.TabIndex = 3392;
+            this.label53.Text = "V";
+            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label4
             // 
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
@@ -4901,6 +5314,20 @@
             this.label6.TabIndex = 3272;
             this.label6.Text = "V";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label52
+            // 
+            this.label52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label52.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.ForeColor = System.Drawing.Color.White;
+            this.label52.Location = new System.Drawing.Point(256, 838);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(30, 29);
+            this.label52.TabIndex = 3396;
+            this.label52.Text = "V";
+            this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label7
             // 
@@ -4930,6 +5357,20 @@
             this.label8.Text = "V";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label51
+            // 
+            this.label51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label51.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.ForeColor = System.Drawing.Color.White;
+            this.label51.Location = new System.Drawing.Point(256, 808);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(30, 29);
+            this.label51.TabIndex = 3390;
+            this.label51.Text = "V";
+            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label9
             // 
             this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
@@ -4957,6 +5398,20 @@
             this.label10.TabIndex = 3263;
             this.label10.Text = "V";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label50
+            // 
+            this.label50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label50.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.ForeColor = System.Drawing.Color.White;
+            this.label50.Location = new System.Drawing.Point(256, 778);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(30, 29);
+            this.label50.TabIndex = 3391;
+            this.label50.Text = "V";
+            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label11
             // 
@@ -4986,6 +5441,20 @@
             this.label131.Text = "V";
             this.label131.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label49
+            // 
+            this.label49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label49.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.ForeColor = System.Drawing.Color.White;
+            this.label49.Location = new System.Drawing.Point(256, 748);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(30, 29);
+            this.label49.TabIndex = 3389;
+            this.label49.Text = "V";
+            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label132
             // 
             this.label132.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
@@ -5013,6 +5482,20 @@
             this.label35.TabIndex = 1959;
             this.label35.Text = "Status";
             this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label47
+            // 
+            this.label47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label47.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.ForeColor = System.Drawing.Color.White;
+            this.label47.Location = new System.Drawing.Point(169, 958);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(30, 29);
+            this.label47.TabIndex = 3379;
+            this.label47.Text = "A";
+            this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label15
             // 
@@ -5042,6 +5525,20 @@
             this.label16.Text = "ST012-I";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label46
+            // 
+            this.label46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label46.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label46.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.ForeColor = System.Drawing.Color.White;
+            this.label46.Location = new System.Drawing.Point(169, 928);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(30, 29);
+            this.label46.TabIndex = 3380;
+            this.label46.Text = "A";
+            this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label21
             // 
             this.label21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
@@ -5069,6 +5566,20 @@
             this.label22.TabIndex = 1948;
             this.label22.Text = "ST011-I";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label45
+            // 
+            this.label45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label45.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.ForeColor = System.Drawing.Color.White;
+            this.label45.Location = new System.Drawing.Point(169, 898);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(30, 29);
+            this.label45.TabIndex = 3381;
+            this.label45.Text = "A";
+            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label23
             // 
@@ -5098,6 +5609,20 @@
             this.label24.Text = "ST010-I";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label44
+            // 
+            this.label44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label44.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.ForeColor = System.Drawing.Color.White;
+            this.label44.Location = new System.Drawing.Point(169, 868);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(30, 29);
+            this.label44.TabIndex = 3382;
+            this.label44.Text = "A";
+            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label25
             // 
             this.label25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
@@ -5125,6 +5650,20 @@
             this.label26.TabIndex = 1944;
             this.label26.Text = "ST09-I";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label43
+            // 
+            this.label43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label43.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.ForeColor = System.Drawing.Color.White;
+            this.label43.Location = new System.Drawing.Point(169, 838);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(30, 29);
+            this.label43.TabIndex = 3387;
+            this.label43.Text = "A";
+            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label27
             // 
@@ -5154,6 +5693,20 @@
             this.label28.Text = "ST08-I";
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label40
+            // 
+            this.label40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label40.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.ForeColor = System.Drawing.Color.White;
+            this.label40.Location = new System.Drawing.Point(169, 808);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(30, 29);
+            this.label40.TabIndex = 3384;
+            this.label40.Text = "A";
+            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label29
             // 
             this.label29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
@@ -5181,6 +5734,20 @@
             this.label30.TabIndex = 1937;
             this.label30.Text = "ST07-I";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label39
+            // 
+            this.label39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label39.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.ForeColor = System.Drawing.Color.White;
+            this.label39.Location = new System.Drawing.Point(169, 778);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(30, 29);
+            this.label39.TabIndex = 3385;
+            this.label39.Text = "A";
+            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label31
             // 
@@ -5210,6 +5777,20 @@
             this.label32.Text = "ST06-I";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label38
+            // 
+            this.label38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label38.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.ForeColor = System.Drawing.Color.White;
+            this.label38.Location = new System.Drawing.Point(169, 748);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(30, 29);
+            this.label38.TabIndex = 3383;
+            this.label38.Text = "A";
+            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label33
             // 
             this.label33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
@@ -5237,6 +5818,20 @@
             this.label75.TabIndex = 1928;
             this.label75.Text = "ST05-I";
             this.label75.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label20
+            // 
+            this.label20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label20.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.White;
+            this.label20.Location = new System.Drawing.Point(8, 928);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(104, 29);
+            this.label20.TabIndex = 3377;
+            this.label20.Text = "ST020-I";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label76
             // 
@@ -5266,6 +5861,20 @@
             this.label82.Text = "ST04-I";
             this.label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label19
+            // 
+            this.label19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label19.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.White;
+            this.label19.Location = new System.Drawing.Point(8, 898);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(104, 29);
+            this.label19.TabIndex = 3376;
+            this.label19.Text = "ST019-I";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label121
             // 
             this.label121.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
@@ -5293,6 +5902,20 @@
             this.label122.TabIndex = 1924;
             this.label122.Text = "ST03-I";
             this.label122.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label17
+            // 
+            this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label17.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.White;
+            this.label17.Location = new System.Drawing.Point(8, 838);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(104, 29);
+            this.label17.TabIndex = 3375;
+            this.label17.Text = "ST017-I";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label130
             // 
@@ -5322,6 +5945,20 @@
             this.label145.Text = "ST02-I";
             this.label145.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label14
+            // 
+            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label14.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(8, 808);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(104, 29);
+            this.label14.TabIndex = 3374;
+            this.label14.Text = "ST016-I";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label146
             // 
             this.label146.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
@@ -5350,6 +5987,20 @@
             this.label151.Text = "ST01-I";
             this.label151.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label13
+            // 
+            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label13.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(8, 778);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(104, 29);
+            this.label13.TabIndex = 3373;
+            this.label13.Text = "ST015-I";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label166
             // 
             this.label166.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
@@ -5377,6 +6028,20 @@
             this.label167.TabIndex = 1915;
             this.label167.Text = "Temperature";
             this.label167.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label12
+            // 
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label12.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(8, 748);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(104, 29);
+            this.label12.TabIndex = 3372;
+            this.label12.Text = "ST014-I";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label172
             // 
@@ -5420,6 +6085,36 @@
             this.label197.Text = "Hz";
             this.label197.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nanoXLabel18
+            // 
+            this.nanoXLabel18.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel18.Decimal = null;
+            this.nanoXLabel18.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel18.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel18.Location = new System.Drawing.Point(200, 718);
+            this.nanoXLabel18.Name = "nanoXLabel18";
+            this.nanoXLabel18.NodePath = "";
+            this.nanoXLabel18.PropertyName = "EngValue";
+            this.nanoXLabel18.scale = 1D;
+            this.nanoXLabel18.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel18.TabIndex = 3410;
+            this.nanoXLabel18.Text = "--";
+            this.nanoXLabel18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label36
+            // 
+            this.label36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label36.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.ForeColor = System.Drawing.Color.White;
+            this.label36.Location = new System.Drawing.Point(8, 958);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(104, 29);
+            this.label36.TabIndex = 3371;
+            this.label36.Text = "ST021-I";
+            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label218
             // 
             this.label218.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
@@ -5433,6 +6128,20 @@
             this.label218.TabIndex = 1911;
             this.label218.Text = "Frequency";
             this.label218.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label48
+            // 
+            this.label48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label48.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.ForeColor = System.Drawing.Color.White;
+            this.label48.Location = new System.Drawing.Point(256, 718);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(30, 29);
+            this.label48.TabIndex = 3388;
+            this.label48.Text = "V";
+            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label219
             // 
@@ -5462,6 +6171,20 @@
             this.label220.Text = "PF";
             this.label220.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label18
+            // 
+            this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label18.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.White;
+            this.label18.Location = new System.Drawing.Point(8, 868);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(104, 29);
+            this.label18.TabIndex = 3378;
+            this.label18.Text = "ST018-I";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label221
             // 
             this.label221.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
@@ -5490,6 +6213,22 @@
             this.label222.Text = "Q ac";
             this.label222.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // nanoXLabel9
+            // 
+            this.nanoXLabel9.BackColor = System.Drawing.Color.DimGray;
+            this.nanoXLabel9.Decimal = null;
+            this.nanoXLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabel9.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel9.Location = new System.Drawing.Point(113, 718);
+            this.nanoXLabel9.Name = "nanoXLabel9";
+            this.nanoXLabel9.NodePath = "";
+            this.nanoXLabel9.PropertyName = "EngValue";
+            this.nanoXLabel9.scale = 1D;
+            this.nanoXLabel9.Size = new System.Drawing.Size(55, 29);
+            this.nanoXLabel9.TabIndex = 3397;
+            this.nanoXLabel9.Text = "--";
+            this.nanoXLabel9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label223
             // 
             this.label223.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
@@ -5517,6 +6256,20 @@
             this.label224.TabIndex = 1900;
             this.label224.Text = "P ac";
             this.label224.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label37
+            // 
+            this.label37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label37.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.Color.White;
+            this.label37.Location = new System.Drawing.Point(169, 718);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(30, 29);
+            this.label37.TabIndex = 3386;
+            this.label37.Text = "A";
+            this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label225
             // 
@@ -5577,16 +6330,29 @@
             // label34
             // 
             this.label34.BackColor = System.Drawing.Color.White;
-            this.label34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold);
             this.label34.ForeColor = System.Drawing.Color.Black;
             this.label34.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label34.Location = new System.Drawing.Point(1, 8);
+            this.label34.Location = new System.Drawing.Point(1, 15);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(289, 739);
+            this.label34.Size = new System.Drawing.Size(279, 36);
             this.label34.TabIndex = 1961;
             this.label34.Text = "INVERTER 03";
             this.label34.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label5.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(8, 718);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(104, 29);
+            this.label5.TabIndex = 3370;
+            this.label5.Text = "ST013-I";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // xDisplayParameterPINa22
             // 
@@ -5874,10 +6640,32 @@
             this.xDisplayParameterPINa26.TagPath2 = "[Connection]/Folder/Tag2";
             this.xDisplayParameterPINa26.TextColor = System.Drawing.Color.White;
             // 
+            // nanoXLamp3
+            // 
+            this.nanoXLamp3.BackColor = System.Drawing.Color.Silver;
+            this.nanoXLamp3.FaultValue = new double[] {
+        3D};
+            this.nanoXLamp3.ForeColor = System.Drawing.Color.White;
+            this.nanoXLamp3.Location = new System.Drawing.Point(150, 55);
+            this.nanoXLamp3.Name = "nanoXLamp3";
+            this.nanoXLamp3.NodePath = "";
+            this.nanoXLamp3.PropertyName = "EngValue";
+            this.nanoXLamp3.RunningValue = new double[] {
+        0D};
+            this.nanoXLamp3.Size = new System.Drawing.Size(130, 40);
+            this.nanoXLamp3.StandbyValue = new double[] {
+        2D,
+        4D};
+            this.nanoXLamp3.StopValue = new double[] {
+        1D};
+            this.nanoXLamp3.TabIndex = 3415;
+            // 
             // frmInverter3
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1920, 800);
+            this.AutoScroll = true;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1920, 1000);
             this.Controls.Add(this.xRotatableLabel46);
             this.Controls.Add(this.xDisplayParameterPINa26);
             this.Controls.Add(this.xDisplayParameterPINa13);
@@ -6594,7 +7382,6 @@
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel3;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel2;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel1;
-        private NanoX.SCADAToolLibrary.MGraphic.MTagsLamp mTagsLamp3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -6675,5 +7462,51 @@
         private NanoX.SCADAToolLibrary.MGraphic.XDisplayParameterPINa xDisplayParameterPINa1;
         private NanoX.SCADAToolLibrary.MGraphic.XDisplayParameterPINa xDisplayParameterPINa13;
         private NanoX.SCADAToolLibrary.MGraphic.XDisplayParameterPINa xDisplayParameterPINa26;
+        private System.Windows.Forms.Label label5;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel26;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel25;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel24;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel23;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel22;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel21;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel20;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel19;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel17;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel16;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel15;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel14;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel13;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel12;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel11;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel10;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label12;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel18;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label36;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel9;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label18;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLamp nanoXLamp3;
     }
 }

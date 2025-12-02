@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmOverview));
             this.label10 = new System.Windows.Forms.Label();
             this.lblPower = new System.Windows.Forms.Label();
-            this.ValueLoad = new System.Windows.Forms.Label();
             this.labelSaving = new System.Windows.Forms.Label();
             this.labelSolar = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -73,6 +72,7 @@
             this.mSignateColumnChart_Yearly = new NanoX.SCADAToolLibrary.MGraphic.MSignateColumnChart();
             this.mSignateAreaLineChart_Daily = new NanoX.SCADAToolLibrary.MGraphic.MSignateAreaLineChart();
             this.mPicturePower1 = new NanoX.SCADAToolLibrary.MGraphic.MPicturePower();
+            this.nanoXLabelValue = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -105,18 +105,6 @@
             this.lblPower.TabIndex = 2119;
             this.lblPower.Text = "Current Power";
             this.lblPower.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // ValueLoad
-            // 
-            this.ValueLoad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
-            this.ValueLoad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.ValueLoad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(187)))), ((int)(((byte)(0)))));
-            this.ValueLoad.Location = new System.Drawing.Point(25, 242);
-            this.ValueLoad.Name = "ValueLoad";
-            this.ValueLoad.Size = new System.Drawing.Size(83, 23);
-            this.ValueLoad.TabIndex = 2118;
-            this.ValueLoad.Text = "-";
-            this.ValueLoad.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // labelSaving
             // 
@@ -219,7 +207,7 @@
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(187)))), ((int)(((byte)(0)))));
             this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label9.Location = new System.Drawing.Point(107, 242);
+            this.label9.Location = new System.Drawing.Point(109, 239);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(46, 23);
             this.label9.TabIndex = 2109;
@@ -232,7 +220,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Location = new System.Drawing.Point(407, 241);
+            this.label1.Location = new System.Drawing.Point(399, 238);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(46, 23);
             this.label1.TabIndex = 2108;
@@ -411,7 +399,7 @@
             this.nanoXLabel_ValueMoney.Decimal = null;
             this.nanoXLabel_ValueMoney.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Bold);
             this.nanoXLabel_ValueMoney.ForeColor = System.Drawing.Color.White;
-            this.nanoXLabel_ValueMoney.Location = new System.Drawing.Point(1690, 209);
+            this.nanoXLabel_ValueMoney.Location = new System.Drawing.Point(1691, 209);
             this.nanoXLabel_ValueMoney.Name = "nanoXLabel_ValueMoney";
             this.nanoXLabel_ValueMoney.NodePath = "[Connection]/Folder/Tag6";
             this.nanoXLabel_ValueMoney.PropertyName = "EngValue";
@@ -429,7 +417,7 @@
             this.nanoXLabel_ValueCo2.ForeColor = System.Drawing.Color.White;
             this.nanoXLabel_ValueCo2.Location = new System.Drawing.Point(1435, 209);
             this.nanoXLabel_ValueCo2.Name = "nanoXLabel_ValueCo2";
-            this.nanoXLabel_ValueCo2.NodePath = "[Connection]/Folder/Tag5";
+            this.nanoXLabel_ValueCo2.NodePath = "[Connection]/";
             this.nanoXLabel_ValueCo2.PropertyName = "EngValue";
             this.nanoXLabel_ValueCo2.scale = 1D;
             this.nanoXLabel_ValueCo2.Size = new System.Drawing.Size(193, 30);
@@ -445,7 +433,7 @@
             this.nanoXLabel_ValueTotalYield.ForeColor = System.Drawing.Color.White;
             this.nanoXLabel_ValueTotalYield.Location = new System.Drawing.Point(1177, 209);
             this.nanoXLabel_ValueTotalYield.Name = "nanoXLabel_ValueTotalYield";
-            this.nanoXLabel_ValueTotalYield.NodePath = "[Connection]/Folder/Tag4";
+            this.nanoXLabel_ValueTotalYield.NodePath = "[Connection]/";
             this.nanoXLabel_ValueTotalYield.PropertyName = "EngValue";
             this.nanoXLabel_ValueTotalYield.scale = 1D;
             this.nanoXLabel_ValueTotalYield.Size = new System.Drawing.Size(193, 30);
@@ -459,9 +447,9 @@
             this.nanoXLabel_ValueIrradiance.Decimal = null;
             this.nanoXLabel_ValueIrradiance.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Bold);
             this.nanoXLabel_ValueIrradiance.ForeColor = System.Drawing.Color.White;
-            this.nanoXLabel_ValueIrradiance.Location = new System.Drawing.Point(941, 208);
+            this.nanoXLabel_ValueIrradiance.Location = new System.Drawing.Point(941, 202);
             this.nanoXLabel_ValueIrradiance.Name = "nanoXLabel_ValueIrradiance";
-            this.nanoXLabel_ValueIrradiance.NodePath = "[Connection]/Folder/Tag3";
+            this.nanoXLabel_ValueIrradiance.NodePath = "[Connection]/Project1/WeatherStation/Irradiance";
             this.nanoXLabel_ValueIrradiance.PropertyName = "EngValue";
             this.nanoXLabel_ValueIrradiance.scale = 1D;
             this.nanoXLabel_ValueIrradiance.Size = new System.Drawing.Size(193, 30);
@@ -475,9 +463,9 @@
             this.nanoXLabel_ValueAbTemp.Decimal = null;
             this.nanoXLabel_ValueAbTemp.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Bold);
             this.nanoXLabel_ValueAbTemp.ForeColor = System.Drawing.Color.White;
-            this.nanoXLabel_ValueAbTemp.Location = new System.Drawing.Point(729, 208);
+            this.nanoXLabel_ValueAbTemp.Location = new System.Drawing.Point(729, 202);
             this.nanoXLabel_ValueAbTemp.Name = "nanoXLabel_ValueAbTemp";
-            this.nanoXLabel_ValueAbTemp.NodePath = "[Connection]/Folder/Tag2";
+            this.nanoXLabel_ValueAbTemp.NodePath = "[Connection]/Project1/WeatherStation/AmbientTemp";
             this.nanoXLabel_ValueAbTemp.PropertyName = "EngValue";
             this.nanoXLabel_ValueAbTemp.scale = 1D;
             this.nanoXLabel_ValueAbTemp.Size = new System.Drawing.Size(193, 30);
@@ -493,7 +481,7 @@
             this.nanoXLabel_ValuePVTemp.ForeColor = System.Drawing.Color.White;
             this.nanoXLabel_ValuePVTemp.Location = new System.Drawing.Point(516, 202);
             this.nanoXLabel_ValuePVTemp.Name = "nanoXLabel_ValuePVTemp";
-            this.nanoXLabel_ValuePVTemp.NodePath = "[Connection]/Folder/Tag6";
+            this.nanoXLabel_ValuePVTemp.NodePath = "[Connection]/Project1/WeatherStation/PVModuleTemp";
             this.nanoXLabel_ValuePVTemp.PropertyName = "EngValue";
             this.nanoXLabel_ValuePVTemp.scale = 1D;
             this.nanoXLabel_ValuePVTemp.Size = new System.Drawing.Size(193, 30);
@@ -509,7 +497,7 @@
             this.nanoXLabel_ValueGrid.ForeColor = System.Drawing.Color.Red;
             this.nanoXLabel_ValueGrid.Location = new System.Drawing.Point(341, 237);
             this.nanoXLabel_ValueGrid.Name = "nanoXLabel_ValueGrid";
-            this.nanoXLabel_ValueGrid.NodePath = "";
+            this.nanoXLabel_ValueGrid.NodePath = "[Connection]/InternalData/Grid/ActivePower";
             this.nanoXLabel_ValueGrid.PropertyName = "EngValue";
             this.nanoXLabel_ValueGrid.scale = 1D;
             this.nanoXLabel_ValueGrid.Size = new System.Drawing.Size(60, 28);
@@ -541,7 +529,7 @@
             this.nanoXLabel_ValueSaving.ForeColor = System.Drawing.Color.LimeGreen;
             this.nanoXLabel_ValueSaving.Location = new System.Drawing.Point(307, 105);
             this.nanoXLabel_ValueSaving.Name = "nanoXLabel_ValueSaving";
-            this.nanoXLabel_ValueSaving.NodePath = "";
+            this.nanoXLabel_ValueSaving.NodePath = "[Connection]/InternalData/Common/Saving";
             this.nanoXLabel_ValueSaving.PropertyName = "EngValue";
             this.nanoXLabel_ValueSaving.scale = 1D;
             this.nanoXLabel_ValueSaving.Size = new System.Drawing.Size(60, 28);
@@ -557,7 +545,7 @@
             this.nanoXLabel_ValueSolar.ForeColor = System.Drawing.Color.LimeGreen;
             this.nanoXLabel_ValueSolar.Location = new System.Drawing.Point(28, 105);
             this.nanoXLabel_ValueSolar.Name = "nanoXLabel_ValueSolar";
-            this.nanoXLabel_ValueSolar.NodePath = "[Connection]/Folder/Tag1";
+            this.nanoXLabel_ValueSolar.NodePath = "[Connection]/InternalData/Solar/ActivePower";
             this.nanoXLabel_ValueSolar.PropertyName = "EngValue";
             this.nanoXLabel_ValueSolar.scale = 1D;
             this.nanoXLabel_ValueSolar.Size = new System.Drawing.Size(95, 24);
@@ -598,7 +586,7 @@
             this.mSignateAreaLineChart_Daily.BackColor = System.Drawing.SystemColors.Window;
             this.mSignateAreaLineChart_Daily.Collection = new string[0];
             this.mSignateAreaLineChart_Daily.Database = "scada";
-            this.mSignateAreaLineChart_Daily.Location = new System.Drawing.Point(25, 282);
+            this.mSignateAreaLineChart_Daily.Location = new System.Drawing.Point(12, 298);
             this.mSignateAreaLineChart_Daily.Name = "mSignateAreaLineChart_Daily";
             this.mSignateAreaLineChart_Daily.Password = "1234";
             this.mSignateAreaLineChart_Daily.Server = "localhost";
@@ -618,6 +606,22 @@
             this.mPicturePower1.Size = new System.Drawing.Size(499, 283);
             this.mPicturePower1.TabIndex = 2126;
             // 
+            // nanoXLabelValue
+            // 
+            this.nanoXLabelValue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
+            this.nanoXLabelValue.Decimal = null;
+            this.nanoXLabelValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.nanoXLabelValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(187)))), ((int)(((byte)(0)))));
+            this.nanoXLabelValue.Location = new System.Drawing.Point(54, 237);
+            this.nanoXLabelValue.Name = "nanoXLabelValue";
+            this.nanoXLabelValue.NodePath = "";
+            this.nanoXLabelValue.PropertyName = "EngValue";
+            this.nanoXLabelValue.scale = 1D;
+            this.nanoXLabelValue.Size = new System.Drawing.Size(60, 28);
+            this.nanoXLabelValue.TabIndex = 2132;
+            this.nanoXLabelValue.Text = "--";
+            this.nanoXLabelValue.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // frmOverview
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -633,6 +637,7 @@
             this.Controls.Add(this.nanoXLabel_ValueIrradiance);
             this.Controls.Add(this.nanoXLabel_ValueAbTemp);
             this.Controls.Add(this.nanoXLabel_ValuePVTemp);
+            this.Controls.Add(this.nanoXLabelValue);
             this.Controls.Add(this.nanoXLabel_ValueGrid);
             this.Controls.Add(this.nanoXLabel_ValueIER);
             this.Controls.Add(this.nanoXLabel_ValueSaving);
@@ -642,7 +647,6 @@
             this.Controls.Add(this.mSignateAreaLineChart_Daily);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.lblPower);
-            this.Controls.Add(this.ValueLoad);
             this.Controls.Add(this.labelSaving);
             this.Controls.Add(this.labelSolar);
             this.Controls.Add(this.pictureBox8);
@@ -685,7 +689,6 @@
 
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label lblPower;
-        private System.Windows.Forms.Label ValueLoad;
         private System.Windows.Forms.Label labelSaving;
         private System.Windows.Forms.Label labelSolar;
         private System.Windows.Forms.Timer timer1;
@@ -726,5 +729,6 @@
         private System.Windows.Forms.Label labelLoadMonthly;
         private NanoX.SCADAToolLibrary.MGraphic.MInputCO2Rate mInputCO2Rate1;
         private NanoX.SCADAToolLibrary.MGraphic.MInputMoneyConstant mInputMoneyConstant1;
+        private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabelValue;
     }
 }

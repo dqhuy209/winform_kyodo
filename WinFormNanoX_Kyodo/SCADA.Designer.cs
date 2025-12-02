@@ -368,7 +368,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Image = global::WinFormNanoX_Kyodo.Properties.Resources.HeaderKyodo;
             this.pictureBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBox2.Location = new System.Drawing.Point(0, -1);
             this.pictureBox2.Name = "pictureBox2";
@@ -439,7 +439,7 @@
             this.label10.Location = new System.Drawing.Point(17, 12);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(59, 20);
+            this.label10.Size = new System.Drawing.Size(117, 37);
             this.label10.TabIndex = 40;
             this.label10.Text = "LOGIN";
             // 
@@ -468,7 +468,7 @@
             "Guest"});
             this.cbxRole.Location = new System.Drawing.Point(105, 136);
             this.cbxRole.Name = "cbxRole";
-            this.cbxRole.Size = new System.Drawing.Size(213, 21);
+            this.cbxRole.Size = new System.Drawing.Size(213, 34);
             this.cbxRole.TabIndex = 37;
             this.cbxRole.Text = "Admin";
             // 
@@ -480,7 +480,7 @@
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label1.Location = new System.Drawing.Point(18, 136);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 16);
+            this.label1.Size = new System.Drawing.Size(69, 32);
             this.label1.TabIndex = 36;
             this.label1.Text = "Role";
             // 
@@ -506,7 +506,7 @@
             this.lblTittle.Location = new System.Drawing.Point(18, 17);
             this.lblTittle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTittle.Name = "lblTittle";
-            this.lblTittle.Size = new System.Drawing.Size(52, 16);
+            this.lblTittle.Size = new System.Drawing.Size(110, 32);
             this.lblTittle.TabIndex = 27;
             this.lblTittle.Text = "LOGIN";
             // 
@@ -531,7 +531,7 @@
             this.lblUserName.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lblUserName.Location = new System.Drawing.Point(18, 69);
             this.lblUserName.Name = "lblUserName";
-            this.lblUserName.Size = new System.Drawing.Size(76, 16);
+            this.lblUserName.Size = new System.Drawing.Size(154, 32);
             this.lblUserName.TabIndex = 28;
             this.lblUserName.Text = "User name";
             // 
@@ -543,7 +543,7 @@
             this.lblPassword.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lblPassword.Location = new System.Drawing.Point(18, 102);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(69, 16);
+            this.lblPassword.Size = new System.Drawing.Size(137, 32);
             this.lblPassword.TabIndex = 29;
             this.lblPassword.Text = "Password";
             // 
@@ -552,14 +552,14 @@
             this.txtPassword.Location = new System.Drawing.Point(105, 99);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '●';
-            this.txtPassword.Size = new System.Drawing.Size(213, 21);
+            this.txtPassword.Size = new System.Drawing.Size(213, 34);
             this.txtPassword.TabIndex = 32;
             // 
             // txtUserName
             // 
             this.txtUserName.Location = new System.Drawing.Point(105, 66);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(213, 21);
+            this.txtUserName.Size = new System.Drawing.Size(213, 34);
             this.txtUserName.TabIndex = 31;
             // 
             // btnRecordActive

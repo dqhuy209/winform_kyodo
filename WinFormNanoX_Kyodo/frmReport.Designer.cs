@@ -53,7 +53,7 @@
             this.nanoXCommonReport1.Database = "scada";
             this.nanoXCommonReport1.Location = new System.Drawing.Point(42, 44);
             this.nanoXCommonReport1.Name = "nanoXCommonReport1";
-            this.nanoXCommonReport1.NameReport = "Common Report";
+            this.nanoXCommonReport1.NameReport = "Daily_Report_Common";
             this.nanoXCommonReport1.Password = "1234";
             this.nanoXCommonReport1.Server = "localhost";
             this.nanoXCommonReport1.Size = new System.Drawing.Size(888, 200);
@@ -65,7 +65,7 @@
             // 
             // nanoXAlarmReport1
             // 
-            this.nanoXAlarmReport1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(183)))), ((int)(((byte)(199)))));
+            this.nanoXAlarmReport1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
             this.nanoXAlarmReport1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.nanoXAlarmReport1.Database = "scada";
             this.nanoXAlarmReport1.Location = new System.Drawing.Point(1020, 44);
@@ -80,12 +80,12 @@
             // 
             // nanoXCommonReportMonthly1
             // 
-            this.nanoXCommonReportMonthly1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(153)))));
+            this.nanoXCommonReportMonthly1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
             this.nanoXCommonReportMonthly1.Connector = this.nanoXConnector1;
             this.nanoXCommonReportMonthly1.Database = "scada";
             this.nanoXCommonReportMonthly1.Location = new System.Drawing.Point(42, 230);
             this.nanoXCommonReportMonthly1.Name = "nanoXCommonReportMonthly1";
-            this.nanoXCommonReportMonthly1.NameReport = "CommonReportMonthly";
+            this.nanoXCommonReportMonthly1.NameReport = "Monthly_Report_Common";
             this.nanoXCommonReportMonthly1.Password = "1234";
             this.nanoXCommonReportMonthly1.Server = "localhost";
             this.nanoXCommonReportMonthly1.Size = new System.Drawing.Size(888, 131);
@@ -99,12 +99,12 @@
             // 
             // nanoXCommonReportYearly1
             // 
-            this.nanoXCommonReportYearly1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(153)))));
+            this.nanoXCommonReportYearly1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
             this.nanoXCommonReportYearly1.Connector = this.nanoXConnector1;
             this.nanoXCommonReportYearly1.Database = "scada";
             this.nanoXCommonReportYearly1.Location = new System.Drawing.Point(42, 421);
             this.nanoXCommonReportYearly1.Name = "nanoXCommonReportYearly1";
-            this.nanoXCommonReportYearly1.NameReport = "CommonReportYearly";
+            this.nanoXCommonReportYearly1.NameReport = "Yearly_Report_Common";
             this.nanoXCommonReportYearly1.Password = "1234";
             this.nanoXCommonReportYearly1.Server = "localhost";
             this.nanoXCommonReportYearly1.Size = new System.Drawing.Size(888, 131);
@@ -117,7 +117,7 @@
             // 
             // nanoXEventReport1
             // 
-            this.nanoXEventReport1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(183)))), ((int)(((byte)(199)))));
+            this.nanoXEventReport1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
             this.nanoXEventReport1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.nanoXEventReport1.Database = "scada";
             this.nanoXEventReport1.Location = new System.Drawing.Point(1020, 230);
@@ -132,13 +132,13 @@
             // 
             // nanoXEnergyReportCommon1
             // 
-            this.nanoXEnergyReportCommon1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(183)))), ((int)(((byte)(199)))));
+            this.nanoXEnergyReportCommon1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(78)))), ((int)(((byte)(148)))));
             this.nanoXEnergyReportCommon1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.nanoXEnergyReportCommon1.Collection = new string[0];
             this.nanoXEnergyReportCommon1.Database = "data";
             this.nanoXEnergyReportCommon1.Location = new System.Drawing.Point(1020, 421);
             this.nanoXEnergyReportCommon1.Name = "nanoXEnergyReportCommon1";
-            this.nanoXEnergyReportCommon1.NameReport = "EnergyReport";
+            this.nanoXEnergyReportCommon1.NameReport = "ZeroExport_Report";
             this.nanoXEnergyReportCommon1.Password = "1234";
             this.nanoXEnergyReportCommon1.Server = "localhost";
             this.nanoXEnergyReportCommon1.Size = new System.Drawing.Size(888, 131);

@@ -14,6 +14,10 @@ namespace WinFormNanoX_Kyodo
             nanoXLabel_ValueIrradiance.TextChanged += ValueSolar_TextChanged;
             nanoXLabel_ValueCo2.Click += ValueCo2_Click;
             nanoXLabel_ValueMoney.Click += ValueMoney_Click;
+
+            // Thêm sự kiện cập nhật realtime cho nanoXLabelValue
+            nanoXLabel_ValueGrid.TextChanged += UpdateNanoXLabelValue;
+            nanoXLabel_ValueSolar.TextChanged += UpdateNanoXLabelValue;
         }
 
         private void frmOverview_Load(object sender, EventArgs e)
@@ -45,14 +49,6 @@ namespace WinFormNanoX_Kyodo
                 if (powerreduce < 0 || grid > 140) powerreduce = 0;
                 nanoXLabel_ValueIER.Text = $"-{powerreduce} kW";
             }
-
-            // TÍNH TẢI TIÊU THỤ: ValueLoad = grid + Solar
-            if (double.TryParse(nanoXLabel_ValueGrid.Text, out double gridValue) && 
-                double.TryParse(nanoXLabel_ValueSolar.Text, out double solarValue))
-            {
-                ValueLoad.Text = (gridValue + solarValue).ToString();
-            }
-            // Không cần hiển thị breaker/GEN
         }
 
         private void ValueCo2_Click(object sender, EventArgs e)
@@ -83,5 +79,18 @@ namespace WinFormNanoX_Kyodo
             }
         }
 
+        // Hàm cập nhật giá trị nanoXLabelValue
+        private void UpdateNanoXLabelValue(object sender, EventArgs e)
+        {
+            if (double.TryParse(nanoXLabel_ValueGrid.Text, out double grid) &&
+                double.TryParse(nanoXLabel_ValueSolar.Text, out double solar))
+            {
+                nanoXLabelValue.Text = (grid + solar).ToString("F2");
+            }
+            else
+            {
+                nanoXLabelValue.Text = "N/A"; // Hiển thị "N/A" nếu không thể tính toán
+            }
+        }
     }
 }

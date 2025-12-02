@@ -69,9 +69,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.xDisplayParameterPINb19 = new NanoX.SCADAToolLibrary.MGraphic.XDisplayParameterPINb();
             this.xDisplayParameterPINb20 = new NanoX.SCADAToolLibrary.MGraphic.XDisplayParameterPINb();
             this.xDisplayParameterPINb17 = new NanoX.SCADAToolLibrary.MGraphic.XDisplayParameterPINb();
@@ -433,6 +431,7 @@
             this.xRotatableLabel95 = new NanoX.SCADAToolLibrary.MGraphic.XRotatableLabel();
             this.xRotatableLabel96 = new NanoX.SCADAToolLibrary.MGraphic.XRotatableLabel();
             this.xRotatableLabel97 = new NanoX.SCADAToolLibrary.MGraphic.XRotatableLabel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -443,9 +442,9 @@
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.ForeColor = System.Drawing.Color.White;
             this.label35.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label35.Location = new System.Drawing.Point(15, 521);
+            this.label35.Location = new System.Drawing.Point(15, 713);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(150, 24);
+            this.label35.Size = new System.Drawing.Size(150, 39);
             this.label35.TabIndex = 4300;
             this.label35.Text = "Grid C Voltage";
             this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -457,9 +456,9 @@
             this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.ForeColor = System.Drawing.Color.White;
             this.label36.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label36.Location = new System.Drawing.Point(248, 521);
+            this.label36.Location = new System.Drawing.Point(248, 713);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(55, 24);
+            this.label36.Size = new System.Drawing.Size(58, 39);
             this.label36.TabIndex = 4299;
             this.label36.Text = "V";
             this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -471,9 +470,9 @@
             this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.ForeColor = System.Drawing.Color.White;
             this.label37.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label37.Location = new System.Drawing.Point(15, 497);
+            this.label37.Location = new System.Drawing.Point(15, 673);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(150, 24);
+            this.label37.Size = new System.Drawing.Size(150, 40);
             this.label37.TabIndex = 4298;
             this.label37.Text = "Grid B Voltage";
             this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -485,12 +484,13 @@
             this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.ForeColor = System.Drawing.Color.White;
             this.label38.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label38.Location = new System.Drawing.Point(248, 497);
+            this.label38.Location = new System.Drawing.Point(248, 673);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(55, 24);
+            this.label38.Size = new System.Drawing.Size(58, 40);
             this.label38.TabIndex = 4297;
             this.label38.Text = "V";
             this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label38.Click += new System.EventHandler(this.label38_Click);
             // 
             // label47
             // 
@@ -499,9 +499,9 @@
             this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label47.ForeColor = System.Drawing.Color.White;
             this.label47.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label47.Location = new System.Drawing.Point(15, 473);
+            this.label47.Location = new System.Drawing.Point(15, 633);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(150, 24);
+            this.label47.Size = new System.Drawing.Size(150, 40);
             this.label47.TabIndex = 4296;
             this.label47.Text = "Grid A Voltage";
             this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -513,9 +513,9 @@
             this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label48.ForeColor = System.Drawing.Color.White;
             this.label48.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label48.Location = new System.Drawing.Point(248, 473);
+            this.label48.Location = new System.Drawing.Point(248, 633);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(55, 24);
+            this.label48.Size = new System.Drawing.Size(58, 40);
             this.label48.TabIndex = 4295;
             this.label48.Text = "V";
             this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -527,9 +527,9 @@
             this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label45.ForeColor = System.Drawing.Color.White;
             this.label45.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label45.Location = new System.Drawing.Point(15, 449);
+            this.label45.Location = new System.Drawing.Point(15, 593);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(150, 24);
+            this.label45.Size = new System.Drawing.Size(150, 40);
             this.label45.TabIndex = 4294;
             this.label45.Text = "Grid C current";
             this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -541,9 +541,9 @@
             this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label46.ForeColor = System.Drawing.Color.White;
             this.label46.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label46.Location = new System.Drawing.Point(248, 449);
+            this.label46.Location = new System.Drawing.Point(248, 593);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(55, 24);
+            this.label46.Size = new System.Drawing.Size(58, 40);
             this.label46.TabIndex = 4293;
             this.label46.Text = "A";
             this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -555,9 +555,9 @@
             this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label43.ForeColor = System.Drawing.Color.White;
             this.label43.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label43.Location = new System.Drawing.Point(15, 425);
+            this.label43.Location = new System.Drawing.Point(15, 553);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(150, 24);
+            this.label43.Size = new System.Drawing.Size(150, 40);
             this.label43.TabIndex = 4292;
             this.label43.Text = "Grid B current";
             this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -569,9 +569,9 @@
             this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label44.ForeColor = System.Drawing.Color.White;
             this.label44.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label44.Location = new System.Drawing.Point(248, 425);
+            this.label44.Location = new System.Drawing.Point(248, 553);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(55, 24);
+            this.label44.Size = new System.Drawing.Size(58, 40);
             this.label44.TabIndex = 4291;
             this.label44.Text = "A";
             this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -583,9 +583,9 @@
             this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label39.ForeColor = System.Drawing.Color.White;
             this.label39.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label39.Location = new System.Drawing.Point(15, 401);
+            this.label39.Location = new System.Drawing.Point(15, 513);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(150, 24);
+            this.label39.Size = new System.Drawing.Size(150, 40);
             this.label39.TabIndex = 4290;
             this.label39.Text = "Grid A current";
             this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -597,9 +597,9 @@
             this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.ForeColor = System.Drawing.Color.White;
             this.label40.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label40.Location = new System.Drawing.Point(248, 401);
+            this.label40.Location = new System.Drawing.Point(248, 513);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(55, 24);
+            this.label40.Size = new System.Drawing.Size(58, 40);
             this.label40.TabIndex = 4289;
             this.label40.Text = "A";
             this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -611,9 +611,9 @@
             this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.ForeColor = System.Drawing.Color.White;
             this.label33.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label33.Location = new System.Drawing.Point(15, 377);
+            this.label33.Location = new System.Drawing.Point(15, 473);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(150, 24);
+            this.label33.Size = new System.Drawing.Size(150, 40);
             this.label33.TabIndex = 4288;
             this.label33.Text = "PF (Grid)";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -625,9 +625,9 @@
             this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.ForeColor = System.Drawing.Color.White;
             this.label34.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label34.Location = new System.Drawing.Point(248, 377);
+            this.label34.Location = new System.Drawing.Point(248, 473);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(55, 24);
+            this.label34.Size = new System.Drawing.Size(58, 40);
             this.label34.TabIndex = 4287;
             this.label34.Text = "-";
             this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -635,7 +635,7 @@
             // label56
             // 
             this.label56.BackColor = System.Drawing.Color.Red;
-            this.label56.Location = new System.Drawing.Point(1813, 19);
+            this.label56.Location = new System.Drawing.Point(1611, 20);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(30, 10);
             this.label56.TabIndex = 4285;
@@ -643,7 +643,7 @@
             // label55
             // 
             this.label55.BackColor = System.Drawing.Color.Aqua;
-            this.label55.Location = new System.Drawing.Point(1813, 34);
+            this.label55.Location = new System.Drawing.Point(1611, 41);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(30, 10);
             this.label55.TabIndex = 4284;
@@ -651,7 +651,7 @@
             // label42
             // 
             this.label42.BackColor = System.Drawing.Color.Silver;
-            this.label42.Location = new System.Drawing.Point(1708, 34);
+            this.label42.Location = new System.Drawing.Point(1510, 41);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(30, 10);
             this.label42.TabIndex = 4282;
@@ -659,7 +659,7 @@
             // label41
             // 
             this.label41.BackColor = System.Drawing.Color.Lime;
-            this.label41.Location = new System.Drawing.Point(1708, 19);
+            this.label41.Location = new System.Drawing.Point(1510, 20);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(30, 10);
             this.label41.TabIndex = 4283;
@@ -667,13 +667,14 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(14, 193);
+            this.textBox2.Location = new System.Drawing.Point(15, 192);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(291, 38);
+            this.textBox2.Size = new System.Drawing.Size(290, 36);
             this.textBox2.TabIndex = 4273;
             this.textBox2.Text = "Running Infomation";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label23
             // 
@@ -682,9 +683,9 @@
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.White;
             this.label23.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label23.Location = new System.Drawing.Point(15, 353);
+            this.label23.Location = new System.Drawing.Point(15, 433);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(150, 24);
+            this.label23.Size = new System.Drawing.Size(150, 40);
             this.label23.TabIndex = 4272;
             this.label23.Text = "PF (Solar)";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -696,9 +697,9 @@
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.Color.White;
             this.label24.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label24.Location = new System.Drawing.Point(15, 329);
+            this.label24.Location = new System.Drawing.Point(15, 393);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(150, 24);
+            this.label24.Size = new System.Drawing.Size(150, 40);
             this.label24.TabIndex = 4271;
             this.label24.Text = "Input Power";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -710,9 +711,9 @@
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.White;
             this.label25.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label25.Location = new System.Drawing.Point(248, 329);
+            this.label25.Location = new System.Drawing.Point(248, 393);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(55, 24);
+            this.label25.Size = new System.Drawing.Size(58, 40);
             this.label25.TabIndex = 4270;
             this.label25.Text = "kW";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -724,9 +725,9 @@
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.White;
             this.label28.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label28.Location = new System.Drawing.Point(248, 353);
+            this.label28.Location = new System.Drawing.Point(248, 433);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(55, 24);
+            this.label28.Size = new System.Drawing.Size(58, 40);
             this.label28.TabIndex = 4269;
             this.label28.Text = "-";
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -738,9 +739,9 @@
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
             this.label15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label15.Location = new System.Drawing.Point(15, 305);
+            this.label15.Location = new System.Drawing.Point(15, 353);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(150, 24);
+            this.label15.Size = new System.Drawing.Size(150, 40);
             this.label15.TabIndex = 4268;
             this.label15.Text = "Total Energy";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -752,9 +753,9 @@
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.White;
             this.label16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label16.Location = new System.Drawing.Point(15, 281);
+            this.label16.Location = new System.Drawing.Point(15, 313);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(150, 24);
+            this.label16.Size = new System.Drawing.Size(150, 40);
             this.label16.TabIndex = 4267;
             this.label16.Text = "Daily Energy";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -766,9 +767,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Location = new System.Drawing.Point(15, 257);
+            this.label1.Location = new System.Drawing.Point(15, 273);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 24);
+            this.label1.Size = new System.Drawing.Size(150, 40);
             this.label1.TabIndex = 4266;
             this.label1.Text = "Reactive Power";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -782,7 +783,7 @@
             this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label4.Location = new System.Drawing.Point(15, 233);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(150, 24);
+            this.label4.Size = new System.Drawing.Size(150, 40);
             this.label4.TabIndex = 4265;
             this.label4.Text = "Active Power";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -796,7 +797,7 @@
             this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label2.Location = new System.Drawing.Point(248, 233);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 24);
+            this.label2.Size = new System.Drawing.Size(58, 40);
             this.label2.TabIndex = 4264;
             this.label2.Text = "kW";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -808,9 +809,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label3.Location = new System.Drawing.Point(248, 305);
+            this.label3.Location = new System.Drawing.Point(248, 353);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 24);
+            this.label3.Size = new System.Drawing.Size(58, 40);
             this.label3.TabIndex = 4262;
             this.label3.Text = "MWh";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -822,9 +823,9 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label6.Location = new System.Drawing.Point(248, 281);
+            this.label6.Location = new System.Drawing.Point(248, 313);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(55, 24);
+            this.label6.Size = new System.Drawing.Size(58, 40);
             this.label6.TabIndex = 4261;
             this.label6.Text = "kWh";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -836,9 +837,9 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label7.Location = new System.Drawing.Point(248, 257);
+            this.label7.Location = new System.Drawing.Point(248, 273);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(55, 24);
+            this.label7.Size = new System.Drawing.Size(58, 40);
             this.label7.TabIndex = 4260;
             this.label7.Text = "kVAr";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -852,7 +853,7 @@
             this.label13.ForeColor = System.Drawing.Color.Lime;
             this.label13.Location = new System.Drawing.Point(226, 70);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(80, 29);
+            this.label13.Size = new System.Drawing.Size(84, 29);
             this.label13.TabIndex = 4259;
             this.label13.Text = "/6";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -866,7 +867,7 @@
             this.label14.ForeColor = System.Drawing.Color.White;
             this.label14.Location = new System.Drawing.Point(146, 41);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(160, 29);
+            this.label14.Size = new System.Drawing.Size(164, 29);
             this.label14.TabIndex = 4258;
             this.label14.Text = "Inverters STANDBY";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -880,7 +881,7 @@
             this.label11.ForeColor = System.Drawing.Color.Lime;
             this.label11.Location = new System.Drawing.Point(226, 129);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(80, 29);
+            this.label11.Size = new System.Drawing.Size(84, 29);
             this.label11.TabIndex = 4257;
             this.label11.Text = "/6";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -894,7 +895,7 @@
             this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(146, 100);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(160, 29);
+            this.label12.Size = new System.Drawing.Size(164, 29);
             this.label12.TabIndex = 4256;
             this.label12.Text = "Inverters FAULT";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -920,9 +921,9 @@
             this.label10.Cursor = System.Windows.Forms.Cursors.Default;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(11, 100);
+            this.label10.Location = new System.Drawing.Point(13, 100);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(134, 29);
+            this.label10.Size = new System.Drawing.Size(132, 29);
             this.label10.TabIndex = 4254;
             this.label10.Text = "Inverters OFF";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -962,26 +963,12 @@
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.Black;
             this.label18.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label18.Location = new System.Drawing.Point(11, 1);
+            this.label18.Location = new System.Drawing.Point(12, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(298, 175);
+            this.label18.Size = new System.Drawing.Size(298, 160);
             this.label18.TabIndex = 4250;
             this.label18.Text = "GENERAL";
             this.label18.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label19
-            // 
-            this.label19.BackColor = System.Drawing.Color.White;
-            this.label19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label19.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.Black;
-            this.label19.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label19.Location = new System.Drawing.Point(24, 56);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(180, 120);
-            this.label19.TabIndex = 4251;
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label20
             // 
@@ -990,25 +977,11 @@
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.Black;
             this.label20.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label20.Location = new System.Drawing.Point(12, 192);
+            this.label20.Location = new System.Drawing.Point(12, 187);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(293, 361);
+            this.label20.Size = new System.Drawing.Size(298, 576);
             this.label20.TabIndex = 4263;
             this.label20.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.BackColor = System.Drawing.Color.White;
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox2.Location = new System.Drawing.Point(320, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1600, 800);
-            this.pictureBox2.TabIndex = 4249;
-            this.pictureBox2.TabStop = false;
             // 
             // xDisplayParameterPINb19
             // 
@@ -1255,12 +1228,12 @@
             this.nanoXLabel16.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.nanoXLabel16.Decimal = null;
             this.nanoXLabel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel16.Location = new System.Drawing.Point(145, 129);
+            this.nanoXLabel16.Location = new System.Drawing.Point(146, 129);
             this.nanoXLabel16.Name = "nanoXLabel16";
             this.nanoXLabel16.NodePath = "[Connection]/Folder/Tag1";
             this.nanoXLabel16.PropertyName = "EngValue";
             this.nanoXLabel16.scale = 1D;
-            this.nanoXLabel16.Size = new System.Drawing.Size(81, 29);
+            this.nanoXLabel16.Size = new System.Drawing.Size(80, 29);
             this.nanoXLabel16.TabIndex = 4317;
             this.nanoXLabel16.Text = "--";
             this.nanoXLabel16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1285,12 +1258,12 @@
             this.nanoXLabel15.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.nanoXLabel15.Decimal = null;
             this.nanoXLabel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel15.Location = new System.Drawing.Point(11, 129);
+            this.nanoXLabel15.Location = new System.Drawing.Point(13, 129);
             this.nanoXLabel15.Name = "nanoXLabel15";
             this.nanoXLabel15.NodePath = "[Connection]/Folder/Tag1";
             this.nanoXLabel15.PropertyName = "EngValue";
             this.nanoXLabel15.scale = 1D;
-            this.nanoXLabel15.Size = new System.Drawing.Size(72, 29);
+            this.nanoXLabel15.Size = new System.Drawing.Size(70, 29);
             this.nanoXLabel15.TabIndex = 4315;
             this.nanoXLabel15.Text = "--";
             this.nanoXLabel15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1300,207 +1273,220 @@
             this.nanoXLabel14.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.nanoXLabel14.Decimal = null;
             this.nanoXLabel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel14.Location = new System.Drawing.Point(12, 70);
+            this.nanoXLabel14.Location = new System.Drawing.Point(13, 70);
             this.nanoXLabel14.Name = "nanoXLabel14";
             this.nanoXLabel14.NodePath = "[Connection]/Folder/Tag1";
             this.nanoXLabel14.PropertyName = "EngValue";
             this.nanoXLabel14.scale = 1D;
-            this.nanoXLabel14.Size = new System.Drawing.Size(72, 29);
+            this.nanoXLabel14.Size = new System.Drawing.Size(71, 29);
             this.nanoXLabel14.TabIndex = 4314;
             this.nanoXLabel14.Text = "--";
             this.nanoXLabel14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel9
             // 
-            this.nanoXLabel9.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel9.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel9.Decimal = null;
             this.nanoXLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel9.Location = new System.Drawing.Point(165, 522);
+            this.nanoXLabel9.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel9.Location = new System.Drawing.Point(165, 713);
             this.nanoXLabel9.Name = "nanoXLabel9";
             this.nanoXLabel9.NodePath = "[Connection]/Folder/Tag1";
             this.nanoXLabel9.PropertyName = "EngValue";
             this.nanoXLabel9.scale = 1D;
-            this.nanoXLabel9.Size = new System.Drawing.Size(82, 22);
+            this.nanoXLabel9.Size = new System.Drawing.Size(82, 38);
             this.nanoXLabel9.TabIndex = 4313;
             this.nanoXLabel9.Text = "--";
             this.nanoXLabel9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel10
             // 
-            this.nanoXLabel10.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel10.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel10.Decimal = null;
             this.nanoXLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel10.Location = new System.Drawing.Point(165, 498);
+            this.nanoXLabel10.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel10.Location = new System.Drawing.Point(165, 673);
             this.nanoXLabel10.Name = "nanoXLabel10";
             this.nanoXLabel10.NodePath = "[Connection]/Folder/Tag1";
             this.nanoXLabel10.PropertyName = "EngValue";
             this.nanoXLabel10.scale = 1D;
-            this.nanoXLabel10.Size = new System.Drawing.Size(82, 22);
+            this.nanoXLabel10.Size = new System.Drawing.Size(82, 39);
             this.nanoXLabel10.TabIndex = 4312;
             this.nanoXLabel10.Text = "--";
             this.nanoXLabel10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel11
             // 
-            this.nanoXLabel11.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel11.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel11.Decimal = null;
             this.nanoXLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel11.Location = new System.Drawing.Point(165, 474);
+            this.nanoXLabel11.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel11.Location = new System.Drawing.Point(165, 633);
             this.nanoXLabel11.Name = "nanoXLabel11";
             this.nanoXLabel11.NodePath = "[Connection]/Folder/Tag1";
             this.nanoXLabel11.PropertyName = "EngValue";
             this.nanoXLabel11.scale = 1D;
-            this.nanoXLabel11.Size = new System.Drawing.Size(82, 22);
+            this.nanoXLabel11.Size = new System.Drawing.Size(82, 39);
             this.nanoXLabel11.TabIndex = 4311;
             this.nanoXLabel11.Text = "--";
             this.nanoXLabel11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel12
             // 
-            this.nanoXLabel12.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel12.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel12.Decimal = null;
             this.nanoXLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel12.Location = new System.Drawing.Point(165, 450);
+            this.nanoXLabel12.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel12.Location = new System.Drawing.Point(165, 593);
             this.nanoXLabel12.Name = "nanoXLabel12";
             this.nanoXLabel12.NodePath = "[Connection]/Folder/Tag1";
             this.nanoXLabel12.PropertyName = "EngValue";
             this.nanoXLabel12.scale = 1D;
-            this.nanoXLabel12.Size = new System.Drawing.Size(82, 22);
+            this.nanoXLabel12.Size = new System.Drawing.Size(82, 39);
             this.nanoXLabel12.TabIndex = 4310;
             this.nanoXLabel12.Text = "--";
             this.nanoXLabel12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel13
             // 
-            this.nanoXLabel13.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel13.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel13.Decimal = null;
             this.nanoXLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel13.Location = new System.Drawing.Point(165, 426);
+            this.nanoXLabel13.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel13.Location = new System.Drawing.Point(165, 553);
             this.nanoXLabel13.Name = "nanoXLabel13";
             this.nanoXLabel13.NodePath = "[Connection]/Folder/Tag1";
             this.nanoXLabel13.PropertyName = "EngValue";
             this.nanoXLabel13.scale = 1D;
-            this.nanoXLabel13.Size = new System.Drawing.Size(82, 22);
+            this.nanoXLabel13.Size = new System.Drawing.Size(82, 39);
             this.nanoXLabel13.TabIndex = 4309;
             this.nanoXLabel13.Text = "--";
             this.nanoXLabel13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel5
             // 
-            this.nanoXLabel5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel5.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel5.Decimal = null;
             this.nanoXLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel5.Location = new System.Drawing.Point(165, 402);
+            this.nanoXLabel5.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel5.Location = new System.Drawing.Point(165, 473);
             this.nanoXLabel5.Name = "nanoXLabel5";
             this.nanoXLabel5.NodePath = "[Connection]/Folder/Tag1";
             this.nanoXLabel5.PropertyName = "EngValue";
             this.nanoXLabel5.scale = 1D;
-            this.nanoXLabel5.Size = new System.Drawing.Size(82, 22);
+            this.nanoXLabel5.Size = new System.Drawing.Size(82, 39);
             this.nanoXLabel5.TabIndex = 4308;
             this.nanoXLabel5.Text = "--";
             this.nanoXLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel6
             // 
-            this.nanoXLabel6.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel6.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel6.Decimal = null;
             this.nanoXLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel6.Location = new System.Drawing.Point(165, 378);
+            this.nanoXLabel6.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel6.Location = new System.Drawing.Point(165, 393);
             this.nanoXLabel6.Name = "nanoXLabel6";
             this.nanoXLabel6.NodePath = "[Connection]/Folder/Tag1";
             this.nanoXLabel6.PropertyName = "EngValue";
             this.nanoXLabel6.scale = 1D;
-            this.nanoXLabel6.Size = new System.Drawing.Size(82, 22);
+            this.nanoXLabel6.Size = new System.Drawing.Size(82, 39);
             this.nanoXLabel6.TabIndex = 4307;
             this.nanoXLabel6.Text = "--";
             this.nanoXLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel7
             // 
-            this.nanoXLabel7.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel7.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel7.Decimal = null;
             this.nanoXLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel7.Location = new System.Drawing.Point(165, 354);
+            this.nanoXLabel7.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel7.Location = new System.Drawing.Point(165, 513);
             this.nanoXLabel7.Name = "nanoXLabel7";
             this.nanoXLabel7.NodePath = "[Connection]/Folder/Tag1";
             this.nanoXLabel7.PropertyName = "EngValue";
             this.nanoXLabel7.scale = 1D;
-            this.nanoXLabel7.Size = new System.Drawing.Size(82, 22);
+            this.nanoXLabel7.Size = new System.Drawing.Size(82, 39);
             this.nanoXLabel7.TabIndex = 4306;
             this.nanoXLabel7.Text = "--";
             this.nanoXLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel8
             // 
-            this.nanoXLabel8.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel8.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel8.Decimal = null;
             this.nanoXLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel8.Location = new System.Drawing.Point(165, 330);
+            this.nanoXLabel8.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel8.Location = new System.Drawing.Point(165, 433);
             this.nanoXLabel8.Name = "nanoXLabel8";
             this.nanoXLabel8.NodePath = "[Connection]/Folder/Tag1";
             this.nanoXLabel8.PropertyName = "EngValue";
             this.nanoXLabel8.scale = 1D;
-            this.nanoXLabel8.Size = new System.Drawing.Size(82, 22);
+            this.nanoXLabel8.Size = new System.Drawing.Size(82, 39);
             this.nanoXLabel8.TabIndex = 4305;
             this.nanoXLabel8.Text = "--";
             this.nanoXLabel8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel3
             // 
-            this.nanoXLabel3.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel3.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel3.Decimal = null;
             this.nanoXLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel3.Location = new System.Drawing.Point(165, 306);
+            this.nanoXLabel3.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel3.Location = new System.Drawing.Point(165, 353);
             this.nanoXLabel3.Name = "nanoXLabel3";
             this.nanoXLabel3.NodePath = "[Connection]/Folder/Tag1";
             this.nanoXLabel3.PropertyName = "EngValue";
             this.nanoXLabel3.scale = 1D;
-            this.nanoXLabel3.Size = new System.Drawing.Size(82, 22);
+            this.nanoXLabel3.Size = new System.Drawing.Size(82, 39);
             this.nanoXLabel3.TabIndex = 4304;
             this.nanoXLabel3.Text = "--";
             this.nanoXLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel4
             // 
-            this.nanoXLabel4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel4.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel4.Decimal = null;
             this.nanoXLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel4.Location = new System.Drawing.Point(165, 282);
+            this.nanoXLabel4.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel4.Location = new System.Drawing.Point(165, 313);
             this.nanoXLabel4.Name = "nanoXLabel4";
             this.nanoXLabel4.NodePath = "[Connection]/Folder/Tag1";
             this.nanoXLabel4.PropertyName = "EngValue";
             this.nanoXLabel4.scale = 1D;
-            this.nanoXLabel4.Size = new System.Drawing.Size(82, 22);
+            this.nanoXLabel4.Size = new System.Drawing.Size(82, 39);
             this.nanoXLabel4.TabIndex = 4303;
             this.nanoXLabel4.Text = "--";
             this.nanoXLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel2
             // 
-            this.nanoXLabel2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel2.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel2.Decimal = null;
             this.nanoXLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel2.Location = new System.Drawing.Point(165, 258);
+            this.nanoXLabel2.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel2.Location = new System.Drawing.Point(165, 273);
             this.nanoXLabel2.Name = "nanoXLabel2";
             this.nanoXLabel2.NodePath = "[Connection]/Folder/Tag1";
             this.nanoXLabel2.PropertyName = "EngValue";
             this.nanoXLabel2.scale = 1D;
-            this.nanoXLabel2.Size = new System.Drawing.Size(82, 22);
+            this.nanoXLabel2.Size = new System.Drawing.Size(82, 39);
             this.nanoXLabel2.TabIndex = 4302;
             this.nanoXLabel2.Text = "--";
             this.nanoXLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel1
             // 
-            this.nanoXLabel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.nanoXLabel1.BackColor = System.Drawing.Color.DimGray;
             this.nanoXLabel1.Decimal = null;
             this.nanoXLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.nanoXLabel1.Location = new System.Drawing.Point(165, 234);
+            this.nanoXLabel1.ForeColor = System.Drawing.Color.Lime;
+            this.nanoXLabel1.Location = new System.Drawing.Point(165, 233);
             this.nanoXLabel1.Name = "nanoXLabel1";
             this.nanoXLabel1.NodePath = "[Connection]/Folder/Tag1";
             this.nanoXLabel1.PropertyName = "EngValue";
             this.nanoXLabel1.scale = 1D;
-            this.nanoXLabel1.Size = new System.Drawing.Size(82, 22);
+            this.nanoXLabel1.Size = new System.Drawing.Size(82, 39);
             this.nanoXLabel1.TabIndex = 4301;
             this.nanoXLabel1.Text = "--";
             this.nanoXLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5296,9 +5282,22 @@
             this.xRotatableLabel97.TabIndex = 4662;
             this.xRotatableLabel97.Text = " INV 6-03-19-4";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.White;
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox2.Location = new System.Drawing.Point(320, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(1410, 798);
+            this.pictureBox2.TabIndex = 4249;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox2_Paint);
+            // 
             // frmAllInverter
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1920, 800);
             this.Controls.Add(this.xRotatableLabel97);
             this.Controls.Add(this.xRotatableLabel96);
@@ -5701,7 +5700,6 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.label19);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -5755,9 +5753,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel1;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel2;
         private NanoX.SCADAToolLibrary.XLabel.NanoXLabel nanoXLabel3;
@@ -6119,5 +6115,6 @@
         private NanoX.SCADAToolLibrary.MGraphic.XRotatableLabel xRotatableLabel95;
         private NanoX.SCADAToolLibrary.MGraphic.XRotatableLabel xRotatableLabel96;
         private NanoX.SCADAToolLibrary.MGraphic.XRotatableLabel xRotatableLabel97;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
