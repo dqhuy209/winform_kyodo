@@ -5100,7 +5100,7 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(104, 29);
             this.label16.TabIndex = 1950;
-            this.label16.Text = "ST012-I";
+            this.label16.Text = "ST12-I";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label21
@@ -5128,7 +5128,7 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(104, 29);
             this.label22.TabIndex = 1948;
-            this.label22.Text = "ST011-I";
+            this.label22.Text = "ST11-I";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label23
@@ -5156,7 +5156,7 @@
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(104, 29);
             this.label24.TabIndex = 1946;
-            this.label24.Text = "ST010-I";
+            this.label24.Text = "ST10-I";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label25
@@ -6414,7 +6414,7 @@
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(104, 29);
             this.label20.TabIndex = 4696;
-            this.label20.Text = "ST020-I";
+            this.label20.Text = "ST20-I";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label19
@@ -6428,7 +6428,7 @@
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(104, 29);
             this.label19.TabIndex = 4695;
-            this.label19.Text = "ST019-I";
+            this.label19.Text = "ST19-I";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label17
@@ -6442,7 +6442,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(104, 29);
             this.label17.TabIndex = 4694;
-            this.label17.Text = "ST017-I";
+            this.label17.Text = "ST17-I";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label14
@@ -6456,7 +6456,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(104, 29);
             this.label14.TabIndex = 4693;
-            this.label14.Text = "ST016-I";
+            this.label14.Text = "ST16-I";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label13
@@ -6470,7 +6470,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(104, 29);
             this.label13.TabIndex = 4692;
-            this.label13.Text = "ST015-I";
+            this.label13.Text = "ST15-I";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label12
@@ -6484,7 +6484,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(104, 29);
             this.label12.TabIndex = 4691;
-            this.label12.Text = "ST014-I";
+            this.label12.Text = "ST14-I";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel18
@@ -6514,7 +6514,7 @@
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(104, 29);
             this.label36.TabIndex = 4690;
-            this.label36.Text = "ST021-I";
+            this.label36.Text = "ST21-I";
             this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label48
@@ -6542,7 +6542,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(104, 29);
             this.label18.TabIndex = 4697;
-            this.label18.Text = "ST018-I";
+            this.label18.Text = "ST18-I";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel9
@@ -6586,7 +6586,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(104, 29);
             this.label5.TabIndex = 4689;
-            this.label5.Text = "ST013-I";
+            this.label5.Text = "ST13-I";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // xDisplayParameterPINb1

@@ -328,6 +328,7 @@
             this.xRotatableLabel96 = new NanoX.SCADAToolLibrary.MGraphic.XRotatableLabel();
             this.xRotatableLabel97 = new NanoX.SCADAToolLibrary.MGraphic.XRotatableLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.nanoXLamp3 = new NanoX.SCADAToolLibrary.XLabel.NanoXLamp();
             this.nanoXLabel27 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel28 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
             this.nanoXLabel29 = new NanoX.SCADAToolLibrary.XLabel.NanoXLabel();
@@ -510,7 +511,6 @@
             this.xDisplayParameterPINa49 = new NanoX.SCADAToolLibrary.MGraphic.XDisplayParameterPINa();
             this.xDisplayParameterPINa50 = new NanoX.SCADAToolLibrary.MGraphic.XDisplayParameterPINa();
             this.xDisplayParameterPINa51 = new NanoX.SCADAToolLibrary.MGraphic.XDisplayParameterPINa();
-            this.nanoXLamp3 = new NanoX.SCADAToolLibrary.XLabel.NanoXLamp();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -4122,6 +4122,26 @@
             this.groupBox1.TabIndex = 4663;
             this.groupBox1.TabStop = false;
             // 
+            // nanoXLamp3
+            // 
+            this.nanoXLamp3.BackColor = System.Drawing.Color.Silver;
+            this.nanoXLamp3.FaultValue = new double[] {
+        3D};
+            this.nanoXLamp3.ForeColor = System.Drawing.Color.White;
+            this.nanoXLamp3.Location = new System.Drawing.Point(150, 55);
+            this.nanoXLamp3.Name = "nanoXLamp3";
+            this.nanoXLamp3.NodePath = "";
+            this.nanoXLamp3.PropertyName = "EngValue";
+            this.nanoXLamp3.RunningValue = new double[] {
+        0D};
+            this.nanoXLamp3.Size = new System.Drawing.Size(130, 40);
+            this.nanoXLamp3.StandbyValue = new double[] {
+        2D,
+        4D};
+            this.nanoXLamp3.StopValue = new double[] {
+        1D};
+            this.nanoXLamp3.TabIndex = 4810;
+            // 
             // nanoXLabel27
             // 
             this.nanoXLabel27.BackColor = System.Drawing.Color.DimGray;
@@ -4613,7 +4633,7 @@
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(104, 29);
             this.label77.TabIndex = 4767;
-            this.label77.Text = "ST020-I";
+            this.label77.Text = "ST20-I";
             this.label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label78
@@ -4627,7 +4647,7 @@
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(104, 29);
             this.label78.TabIndex = 4766;
-            this.label78.Text = "ST019-I";
+            this.label78.Text = "ST19-I";
             this.label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label79
@@ -4641,7 +4661,7 @@
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(104, 29);
             this.label79.TabIndex = 4765;
-            this.label79.Text = "ST017-I";
+            this.label79.Text = "ST17-I";
             this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label80
@@ -4655,7 +4675,7 @@
             this.label80.Name = "label80";
             this.label80.Size = new System.Drawing.Size(104, 29);
             this.label80.TabIndex = 4764;
-            this.label80.Text = "ST016-I";
+            this.label80.Text = "ST16-I";
             this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label81
@@ -4669,7 +4689,7 @@
             this.label81.Name = "label81";
             this.label81.Size = new System.Drawing.Size(104, 29);
             this.label81.TabIndex = 4763;
-            this.label81.Text = "ST015-I";
+            this.label81.Text = "ST15-I";
             this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label83
@@ -4683,7 +4703,7 @@
             this.label83.Name = "label83";
             this.label83.Size = new System.Drawing.Size(104, 29);
             this.label83.TabIndex = 4762;
-            this.label83.Text = "ST014-I";
+            this.label83.Text = "ST14-I";
             this.label83.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel43
@@ -4727,7 +4747,7 @@
             this.label85.Name = "label85";
             this.label85.Size = new System.Drawing.Size(104, 29);
             this.label85.TabIndex = 4761;
-            this.label85.Text = "ST021-I";
+            this.label85.Text = "ST21-I";
             this.label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel44
@@ -4771,7 +4791,7 @@
             this.label87.Name = "label87";
             this.label87.Size = new System.Drawing.Size(104, 29);
             this.label87.TabIndex = 4768;
-            this.label87.Text = "ST018-I";
+            this.label87.Text = "ST18-I";
             this.label87.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label88
@@ -4785,7 +4805,7 @@
             this.label88.Name = "label88";
             this.label88.Size = new System.Drawing.Size(104, 29);
             this.label88.TabIndex = 4760;
-            this.label88.Text = "ST013-I";
+            this.label88.Text = "ST13-I";
             this.label88.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nanoXLabel65
@@ -5507,7 +5527,7 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(104, 29);
             this.label16.TabIndex = 1950;
-            this.label16.Text = "ST012-I";
+            this.label16.Text = "ST12-I";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label21
@@ -5535,7 +5555,7 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(104, 29);
             this.label22.TabIndex = 1948;
-            this.label22.Text = "ST011-I";
+            this.label22.Text = "ST11-I";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label23
@@ -5563,7 +5583,7 @@
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(104, 29);
             this.label24.TabIndex = 1946;
-            this.label24.Text = "ST010-I";
+            this.label24.Text = "ST10-I";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label25
@@ -6615,26 +6635,6 @@
             this.xDisplayParameterPINa51.TagPath1 = "[Connection]/Folder/Tag1";
             this.xDisplayParameterPINa51.TagPath2 = "[Connection]/Folder/Tag2";
             this.xDisplayParameterPINa51.TextColor = System.Drawing.Color.White;
-            // 
-            // nanoXLamp3
-            // 
-            this.nanoXLamp3.BackColor = System.Drawing.Color.Silver;
-            this.nanoXLamp3.FaultValue = new double[] {
-        3D};
-            this.nanoXLamp3.ForeColor = System.Drawing.Color.White;
-            this.nanoXLamp3.Location = new System.Drawing.Point(150, 55);
-            this.nanoXLamp3.Name = "nanoXLamp3";
-            this.nanoXLamp3.NodePath = "";
-            this.nanoXLamp3.PropertyName = "EngValue";
-            this.nanoXLamp3.RunningValue = new double[] {
-        0D};
-            this.nanoXLamp3.Size = new System.Drawing.Size(130, 40);
-            this.nanoXLamp3.StandbyValue = new double[] {
-        2D,
-        4D};
-            this.nanoXLamp3.StopValue = new double[] {
-        1D};
-            this.nanoXLamp3.TabIndex = 4810;
             // 
             // frmInverter6
             // 
